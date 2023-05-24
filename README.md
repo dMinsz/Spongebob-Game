@@ -1,5 +1,7 @@
 # Spongebob-Game
 
+[Manual](./ManualForDevelop/Basic-Structure.md)
+
 Not For Commercial
 
 Just Study Make Game

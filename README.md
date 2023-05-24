@@ -2,6 +2,8 @@
 
 [Manual](./ManualForDevelop/Basic-Structure.md)
 
+[Collabo Basic Branch Rules](./ManualForDevelop/Basic-Rules.md)
+
 Not For Commercial
 
 Just Study Make Game

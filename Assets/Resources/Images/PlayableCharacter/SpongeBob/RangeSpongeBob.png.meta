@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1004ac9a64e227f48a5313e151983086
+guid: b13ae8cc3ab42184482e60eac7491bee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 28
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -91,18 +91,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,1387 +129,1429 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NetSwingSpongeBob_0
+      name: RangeSpongeBob_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1055
-        width: 69
-        height: 63
+        x: 22
+        y: 327
+        width: 65
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7b622fe57e7358498b32c40a7aa70df
-      internalID: -1053492405
+      spriteID: 11144177f6644ba4f85726d5e155cf38
+      internalID: 1577361375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_1
+      name: RangeSpongeBob_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 1055
-        width: 46
-        height: 69
+        x: 98
+        y: 326
+        width: 60
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cfc02b6594698e478718514179f64b8
-      internalID: -1238987127
+      spriteID: 84fe6e6053a0fe84f85136bff19d673a
+      internalID: 413301345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_2
+      name: RangeSpongeBob_2
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 1102
-        width: 47
-        height: 15
+        x: 164
+        y: 325
+        width: 64
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34fa64a6c4e00834d821cfee409f1d73
-      internalID: -1474992322
+      spriteID: 566db54f22ab84049a5be933cbc89c40
+      internalID: 969772682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_3
+      name: RangeSpongeBob_3
       rect:
         serializedVersion: 2
-        x: 1171
-        y: 1102
-        width: 19
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fdd131750a976c4abd3c5130d335bb7
-      internalID: -401434198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_4
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 1102
+        x: 237
+        y: 325
         width: 38
-        height: 15
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f7e918cd3a67d4e88eaa859a3fa4a4
-      internalID: 1588630628
+      spriteID: a2069edb0c6b64b4d8491586ce4b407a
+      internalID: -1565995801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_5
+      name: RangeSpongeBob_4
       rect:
         serializedVersion: 2
-        x: 1231
-        y: 1104
-        width: 4
-        height: 13
+        x: 251
+        y: 356
+        width: 36
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adaab4c4f20385d4c9743883b30cadcb
-      internalID: -1131783942
+      spriteID: 7624aa210f248c144a33b16543e2772d
+      internalID: 2147385947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_6
+      name: RangeSpongeBob_5
       rect:
         serializedVersion: 2
-        x: 1251
-        y: 1100
-        width: 25
-        height: 25
+        x: 280
+        y: 325
+        width: 23
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58751702a3bf82842b3edf7fdc5c436d
-      internalID: 1254069988
+      spriteID: 58f1c8de9eb480c41bee2ab7e8038a71
+      internalID: 1075720427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_11
+      name: RangeSpongeBob_6
       rect:
         serializedVersion: 2
-        x: 168
-        y: 998
+        x: 323
+        y: 343
         width: 42
-        height: 49
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 647bfdc466cb440489203d420e719426
-      internalID: -461899792
+      spriteID: 309e735328961784c8df1458e8211131
+      internalID: 1083482375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_15
+      name: RangeSpongeBob_7
       rect:
         serializedVersion: 2
-        x: 171
-        y: 934
-        width: 43
-        height: 60
+        x: 373
+        y: 323
+        width: 65
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91f1ebce0fb45a841a4da3845f178cd9
-      internalID: 436827813
+      spriteID: e21ec6f422876bd45add317e3889a26a
+      internalID: -911534514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move0
+      name: RangeSpongeBob_8
       rect:
         serializedVersion: 2
-        x: 86
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 006974c4ad4692f4cb1b3efb9d3c6273
-      internalID: 682327311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move1
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19d2a944cfbbd324ca8d37c9a35a3cc1
-      internalID: -735318985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move2
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 851
-        width: 75
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efead5b6e64ec1b41b77ddd7c45f0382
-      internalID: 774901065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move3
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade5f74156c1e034ba26a01d16661650
-      internalID: 638648769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move4
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 669bff928e387a24f9ce73673427543d
-      internalID: -1084309090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move5
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 852
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46fd7f831955d3b4c8b6b5ce78077f0e
-      internalID: -1274520722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move6
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 966cb7453d8a8ca40ba04d0719e1b252
-      internalID: -2064136585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move7
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 851
-        width: 78
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5f22afb25336334bbd6f75da0097ed0
-      internalID: -1138361778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_27
-      rect:
-        serializedVersion: 2
-        x: 788
-        y: 851
-        width: 52
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85b503da5324e9a4c8cba0bf005155ac
-      internalID: 634135073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_28
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 851
-        width: 55
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4ca5d4aa412afe4cbb49c878ac4a137
-      internalID: -443271017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_29
-      rect:
-        serializedVersion: 2
-        x: 925
-        y: 851
-        width: 53
+        x: 518
+        y: 322
+        width: 58
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac83f9f4e7261f946987d5e9b55c9458
-      internalID: -485781623
+      spriteID: 101d3a36d114edf4cbf577bf5ef0c978
+      internalID: -376932071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_30
+      name: RangeSpongeBob_9
       rect:
         serializedVersion: 2
-        x: 989
-        y: 851
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d85435b4c59eb49ad9ecea76ace0bc
-      internalID: 355549963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_31
-      rect:
-        serializedVersion: 2
-        x: 1138
-        y: 851
-        width: 55
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d636aadf48edb664b98f96172ead1a72
-      internalID: 1000107880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_32
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 851
-        width: 55
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4119a098941de54aae067627869dc34
-      internalID: -1702939604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_35
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 785
-        width: 43
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a772292fc7ed06e49887cfbebeba8cd0
-      internalID: 731259160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_36
-      rect:
-        serializedVersion: 2
-        x: 855
-        y: 785
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31bf5fd407ef7114d895483cde23fdf3
-      internalID: 888556723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_37
-      rect:
-        serializedVersion: 2
-        x: 926
-        y: 785
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cef92a83606cfa148a2851f1cb156b92
-      internalID: 1187237614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_38
-      rect:
-        serializedVersion: 2
-        x: 996
-        y: 785
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab4038b9ac3477146805fbae15c47ab9
-      internalID: 2066504727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_39
-      rect:
-        serializedVersion: 2
-        x: 1069
-        y: 785
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88404c3876f1a4749ba59fa0606c1a73
-      internalID: 85693236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_40
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 785
-        width: 43
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b042b1c2f7de54e9488566160a4191
-      internalID: 532257791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_41
-      rect:
-        serializedVersion: 2
-        x: 1213
-        y: 785
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59bca4e2edea79345890d542f37d8eff
-      internalID: 454535409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_44
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 704
-        width: 44
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f14979039650296478096bf33caf2f19
-      internalID: 1729446002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_45
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 704
-        width: 55
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d4b40531dfbc9e4b895f837aef3d536
-      internalID: 1416192868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_46
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 704
-        width: 51
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc21bf6a06807b84597b35a70440d0e4
-      internalID: -1910168315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_47
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 704
-        width: 56
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72700e050795b454381c4bd4ae333b18
-      internalID: 265278710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_48
-      rect:
-        serializedVersion: 2
-        x: 1068
-        y: 704
-        width: 46
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a84a4fc68c4488c43b4ee720454f53f5
-      internalID: 1852690665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_49
-      rect:
-        serializedVersion: 2
-        x: 1130
-        y: 704
-        width: 55
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d81a184bd1c0c9740b6c9070438a0c82
-      internalID: -864326224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_50
-      rect:
-        serializedVersion: 2
-        x: 1212
-        y: 704
-        width: 55
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e11939413a79b940a5d9653b71ede17
-      internalID: -787394713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_56
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 597
-        width: 55
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be146e1dbf7e7594e96740661b47fcfd
-      internalID: -271903261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_57
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 597
-        width: 70
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 957e4bfb2186bc94f8ea04aafb9ca96c
-      internalID: -102180757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_58
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 597
-        width: 68
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 227a91d2b68275f478cb5c383da44bf2
-      internalID: 20709121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump0
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 597
-        width: 69
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c79ddc016eaa3e4d99e2273f23b0836
-      internalID: -2118235691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump1
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 597
+        x: 449
+        y: 327
         width: 64
-        height: 84
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2af940b91544eef449b787c4f87d00aa
-      internalID: 382500144
+      spriteID: 54b4d96580b7bd64ba310501d5b2666b
+      internalID: 1949363611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump2
+      name: RangeSpongeBob_10
       rect:
         serializedVersion: 2
-        x: 686
-        y: 597
-        width: 64
-        height: 84
+        x: 12
+        y: 258
+        width: 37
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4df7b1e7a94753e4ab1f14b2f3a5a114
-      internalID: -864044173
+      spriteID: ff85b64c47e13644ea33f55bd6c17486
+      internalID: -1196672740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump3
+      name: RangeSpongeBob_11
       rect:
         serializedVersion: 2
-        x: 760
-        y: 597
-        width: 64
-        height: 84
+        x: 92
+        y: 312
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5408287bca0c0bb4986a15a2387c94a1
-      internalID: 427943235
+      spriteID: 24528fee1b83d664093f90dc9a5c405f
+      internalID: -945421606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_75
+      name: RangeSpongeBob_12
       rect:
         serializedVersion: 2
-        x: 288
-        y: 480
-        width: 56
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3fe6a1d51ef8d2408167714a78bbc20
-      internalID: 797352812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_76
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 480
-        width: 85
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97a5d947aebda054d8c70e0a10250d47
-      internalID: 1294433207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_77
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 480
-        width: 106
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8780f3778fda9004a9068b79e9081185
-      internalID: -1810798292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwing0
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 481
-        width: 72
-        height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f19311043d5b9754a8a26134ccb286d7
-      internalID: -193965554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwing1
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 480
-        width: 92
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e61167120acca3044b77eec59e0ffe2a
-      internalID: -1341124501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwing2
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 480
-        width: 59
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c34814523ca25814caf2be51d3338f82
-      internalID: -52461218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwing3
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 480
-        width: 74
+        x: 140
+        y: 257
+        width: 37
         height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f379489b6cda34ebcb14057500fc17
-      internalID: -1194903327
+      spriteID: 985bcf0e7888b0d4e93022adc19d62d3
+      internalID: -19540264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_98
+      name: RangeSpongeBob_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 257
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8bfb479601824479af11d0e364f15c
+      internalID: 761585246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 312
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07585644d648e4241aee32ec67a3c9b3
+      internalID: 1910421838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flute0
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 257
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e387e1a31b49c224ab1701d262872faa
+      internalID: 879719419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flute1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 257
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322b3ee2357cdf443a325c96b36f6583
+      internalID: -911478336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 257
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9399282989bcb468bbe4e2265be664
+      internalID: 1400093187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 257
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b250126754dc374fb824bd8c5a9a1bc
+      internalID: 868631336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 257
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d299c8571e2df46a85b7ecb0b5a8af
+      internalID: 980056484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 257
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799d695c7c5ae1244bc07084cb531762
+      internalID: 358351636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_21
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 257
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45383a4c067c1384cb5095d0c2ec599a
+      internalID: 1269499748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6b4df7dc518c24885e9d54bd902a3d
+      internalID: -5988801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a124404a9103a4ebce76a82b7fe8e3
+      internalID: 1943780806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 194
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991618a4ea5e444883f7153e1747a9e
+      internalID: 1373840825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 195
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c50acf7cdabd144ad712c046dc9f5b
+      internalID: -87226734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 134
+        width: 48
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775701785f240144f88530ecac94996c
+      internalID: 1545470623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66f9f25eb735b14ca445659ab64f5d0
+      internalID: 40190977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f358ab41a6ec2408ab23431e1724bd
+      internalID: -58393724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_29
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 193
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e22c1409274ba47bc2b4708aee312b
+      internalID: 515282607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_30
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 193
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ba9214d7a1b542a067d408acc65d3
+      internalID: 1590971100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_31
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 194
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f56b445e544da94eb3a3a9f06e756e9
+      internalID: 759147624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 129
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b626ffb2a134845b38ac4f2b9bc46e
+      internalID: 132906613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 133
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e83a1065d2244a86ff7eaf533e1da
+      internalID: 659187460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 130
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790882da350eb1547ac525400d185edd
+      internalID: 1868630499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_35
       rect:
         serializedVersion: 2
         x: 199
-        y: 270
-        width: 52
-        height: 60
+        y: 129
+        width: 41
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0852554238b6c74c8d9390cd6da0486
-      internalID: -1372111398
+      spriteID: 575d0de720dd33144b508390ad5ce2b2
+      internalID: 997810653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_99
+      name: RangeSpongeBob_36
       rect:
         serializedVersion: 2
-        x: 294
-        y: 270
-        width: 46
-        height: 63
+        x: 324
+        y: 129
+        width: 44
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd6f639e4985d804bb8182714bddd538
-      internalID: -1079223885
+      spriteID: 4f06199100dfa8640980dbd45527da82
+      internalID: -1767137055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_100
+      name: RangeSpongeBob_37
       rect:
         serializedVersion: 2
-        x: 407
-        y: 270
-        width: 47
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9654b74f41314341b04a5fd660991fa
-      internalID: -1402864091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NetSwingSpongeBob_101
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 270
+        x: 388
+        y: 129
         width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5b79d9c273b0b489676e7a7cec057c
+      internalID: -386818917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_38
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 131
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a178742d8169c4a86749ae010b369e
+      internalID: 682195647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 130
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e2bde513472614db173a8d5220c61d
+      internalID: -720541543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_40
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 129
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5523becb687c09449b8cf1f1a206401
+      internalID: -1058957187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9a6cc8fbb48354baa453fe3e066416
+      internalID: -546775577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_42
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 66
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e63c665ac662ad46b7d40b0f63e0d4e
+      internalID: -812343583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_43
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 69
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fa937529c49e642a86867ab42459ec
+      internalID: 638131337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_44
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 120
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6136a1a035f7dec4b80ca717bdf587e7
+      internalID: 1865429153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 48
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 027e742b2c876b1438f42566f0c7dcd4
-      internalID: -353631318
+      spriteID: d9a0147bc298be346b39ae79ec7f4e80
+      internalID: -1772340107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_102
+      name: RangeSpongeBob_46
       rect:
         serializedVersion: 2
-        x: 637
-        y: 270
-        width: 54
-        height: 59
+        x: 360
+        y: 109
+        width: 12
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d30c7f40050de46b9c5a6ae4453cb2
-      internalID: 1870980105
+      spriteID: 4f31aafab47debb499fbb6234bc33900
+      internalID: 344198790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_103
+      name: RangeSpongeBob_47
       rect:
         serializedVersion: 2
-        x: 744
-        y: 270
-        width: 59
-        height: 63
+        x: 389
+        y: 65
+        width: 58
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7d5e9552c1559540b30126717abbc60
-      internalID: 1851914481
+      spriteID: 7996bd686cdab9d44adf592d8bbcd140
+      internalID: 122966641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_104
+      name: RangeSpongeBob_48
       rect:
         serializedVersion: 2
-        x: 834
-        y: 270
-        width: 59
-        height: 63
+        x: 448
+        y: 65
+        width: 65
+        height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9cb2db7856daef4681e7733d7699704
-      internalID: -2142605500
+      spriteID: 2b7dd0cee6e9ee846a962f24dc15f674
+      internalID: -1123987257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_105
+      name: RangeSpongeBob_49
       rect:
         serializedVersion: 2
-        x: 926
-        y: 270
-        width: 55
-        height: 59
+        x: 582
+        y: 65
+        width: 51
+        height: 53
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6ddc31153eb0ff439a6fe745b5d3448
-      internalID: 724856795
+      spriteID: 3bb2214a83ee0874b8f2d1221f7ef783
+      internalID: 1639057977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle0
+      name: RangeSpongeBob_50
       rect:
         serializedVersion: 2
-        x: 201
-        y: 148
-        width: 45
-        height: 56
+        x: 6
+        y: 65
+        width: 48
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7dcb2bb48b9f5348a2c6f87fb5d0b8e
-      internalID: -1795952607
+      spriteID: be7a6efde2461e1409c071319cc46572
+      internalID: -529782800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle2
+      name: RangeSpongeBob_52
       rect:
         serializedVersion: 2
-        x: 334
-        y: 148
-        width: 45
-        height: 56
+        x: 196
+        y: 65
+        width: 53
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e2e9476d57729c489bcf1cb971b6b81
-      internalID: 355957516
+      spriteID: 4823c5c0b0aec0145a45018920b8d333
+      internalID: 895206300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle3
+      name: RangeSpongeBob_53
       rect:
         serializedVersion: 2
-        x: 398
-        y: 148
-        width: 45
-        height: 56
+        x: 320
+        y: 65
+        width: 62
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21a095a344869644fbf42ed86ef4b157
-      internalID: 1338331187
+      spriteID: 7e4e3b064cc807d42bb650588ee6399d
+      internalID: 99928997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle4
+      name: RangeSpongeBob_54
       rect:
         serializedVersion: 2
-        x: 463
-        y: 148
+        x: 5
+        y: 1
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9145b9feec409b45857ca745a68eeec
+      internalID: -1800554036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc801206f66a8414caf00790a9229cd2
+      internalID: 1903258981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
         width: 46
         height: 56
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80d474b1853ad0248817ec0f5070884a
-      internalID: -127892835
+      spriteID: c279ab551e385a343a860f0e6baecb53
+      internalID: -825036572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle5
+      name: RangeSpongeBob_57
       rect:
         serializedVersion: 2
-        x: 533
-        y: 148
-        width: 45
-        height: 56
+        x: 205
+        y: 1
+        width: 40
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8d13d9eb88c3841b9dca63e126bfe0
-      internalID: -1076076142
+      spriteID: da6ce29fc6c3d4a43b12bdba1ed66f4a
+      internalID: -322568629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NetSwingSpongeBob_115
+      name: RangeSpongeBob_58
       rect:
         serializedVersion: 2
-        x: 1
-        y: 113
-        width: 1275
-        height: 4
+        x: 266
+        y: 31
+        width: 12
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb651ca15b9540e47bea9ceccb6e2c55
-      internalID: 1776396156
+      spriteID: 487d9c4c41bec02498577dc5f8ae2df5
+      internalID: 1806059930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1
+      name: RangeSpongeBob_59
       rect:
         serializedVersion: 2
-        x: 271
-        y: 148
-        width: 45
-        height: 56
+        x: 278
+        y: 30
+        width: 54
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61a3288064dc9a4f9b59bf935578d33
-      internalID: 373971089
+      spriteID: b89265dd8d73c644b93771b49725f61d
+      internalID: 1952700873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_60
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 30
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c12a96b5bba6584fbfe92bd5a725d02
+      internalID: -1373073079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_61
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 30
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c04e8b1fd0f1c7458677d5e484a9ae0
+      internalID: -646870173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_62
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 30
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9006576bc4441d141b1f7b33c2aa8548
+      internalID: -232655256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_63
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 30
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2866667fc3946174289ade77976fa1f4
+      internalID: -2118003323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_64
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 30
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c53daae4ccc48c478e73294f45fe26b
+      internalID: -2077395071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_65
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 30
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb1af199e54f04f80628cba2cd9d0f
+      internalID: -89482275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_66
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 30
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055d5ac036e96f54cb7c6fccb3c81a51
+      internalID: 1909116500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_67
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82ed6a069672c24f8b9b476c287af3d
+      internalID: 1251024110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeSpongeBob_68
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91049fd06ca136347aeaef48777d05c8
+      internalID: 1324757367
       vertices: []
       indices: 
       edges: []
@@ -1537,132 +1567,75 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle0: -1795952607
-      Idle1: 373971089
-      Idle2: 355957516
-      Idle3: 1338331187
-      Idle4: -127892835
-      Idle5: -1076076142
-      Jump0: -2118235691
-      Jump1: 382500144
-      Move0: 682327311
-      Move1: -735318985
-      Move2: 774901065
-      Move3: 638648769
-      Move4: -1084309090
-      Move5: -1274520722
-      Move6: -2064136585
-      Move7: -1138361778
-      NetSwing0: -193965554
-      NetSwing1: -1341124501
-      NetSwing2: -52461218
-      NetSwing3: -1194903327
-      NetSwingSpongeBob_0: -1053492405
-      NetSwingSpongeBob_1: -1238987127
-      NetSwingSpongeBob_10: 278185969
-      NetSwingSpongeBob_100: -1402864091
-      NetSwingSpongeBob_101: -353631318
-      NetSwingSpongeBob_102: 1870980105
-      NetSwingSpongeBob_103: 1851914481
-      NetSwingSpongeBob_104: -2142605500
-      NetSwingSpongeBob_105: 724856795
-      NetSwingSpongeBob_106: -1687732322
-      NetSwingSpongeBob_107: 1604561484
-      NetSwingSpongeBob_108: -706758350
-      NetSwingSpongeBob_109: -1012471893
-      NetSwingSpongeBob_11: -461899792
-      NetSwingSpongeBob_115: 1776396156
-      NetSwingSpongeBob_116: -14152081
-      NetSwingSpongeBob_117: 1471526735
-      NetSwingSpongeBob_118: -1204170212
-      NetSwingSpongeBob_119: -681575762
-      NetSwingSpongeBob_12: -1509150159
-      NetSwingSpongeBob_120: -32033230
-      NetSwingSpongeBob_121: -2126609441
-      NetSwingSpongeBob_122: 1981636600
-      NetSwingSpongeBob_123: 1381521227
-      NetSwingSpongeBob_124: 1577790993
-      NetSwingSpongeBob_125: 2058901176
-      NetSwingSpongeBob_13: 1706454050
-      NetSwingSpongeBob_14: 35577106
-      NetSwingSpongeBob_15: 436827813
-      NetSwingSpongeBob_16: -1339677700
-      NetSwingSpongeBob_17: -2067135105
-      NetSwingSpongeBob_18: -1090137082
-      NetSwingSpongeBob_2: -1474992322
-      NetSwingSpongeBob_27: 634135073
-      NetSwingSpongeBob_28: -443271017
-      NetSwingSpongeBob_29: -485781623
-      NetSwingSpongeBob_3: -401434198
-      NetSwingSpongeBob_30: 355549963
-      NetSwingSpongeBob_31: 1000107880
-      NetSwingSpongeBob_32: -1702939604
-      NetSwingSpongeBob_33: 1927849399
-      NetSwingSpongeBob_34: -105952846
-      NetSwingSpongeBob_35: 731259160
-      NetSwingSpongeBob_36: 888556723
-      NetSwingSpongeBob_37: 1187237614
-      NetSwingSpongeBob_38: 2066504727
-      NetSwingSpongeBob_39: 85693236
-      NetSwingSpongeBob_4: 1588630628
-      NetSwingSpongeBob_40: 532257791
-      NetSwingSpongeBob_41: 454535409
-      NetSwingSpongeBob_42: 1528280920
-      NetSwingSpongeBob_43: -661699926
-      NetSwingSpongeBob_44: 1729446002
-      NetSwingSpongeBob_45: 1416192868
-      NetSwingSpongeBob_46: -1910168315
-      NetSwingSpongeBob_47: 265278710
-      NetSwingSpongeBob_48: 1852690665
-      NetSwingSpongeBob_49: -864326224
-      NetSwingSpongeBob_5: -1131783942
-      NetSwingSpongeBob_50: -787394713
-      NetSwingSpongeBob_51: 1580263418
-      NetSwingSpongeBob_52: 146750118
-      NetSwingSpongeBob_53: 1041721992
-      NetSwingSpongeBob_54: -1343146089
-      NetSwingSpongeBob_55: -122960604
-      NetSwingSpongeBob_56: -271903261
-      NetSwingSpongeBob_57: -102180757
-      NetSwingSpongeBob_58: 20709121
-      NetSwingSpongeBob_6: 1254069988
-      NetSwingSpongeBob_63: -894723238
-      NetSwingSpongeBob_64: 1065504784
-      NetSwingSpongeBob_65: -2074480846
-      NetSwingSpongeBob_66: 733134916
-      NetSwingSpongeBob_67: 1469487497
-      NetSwingSpongeBob_68: -997463115
-      NetSwingSpongeBob_69: 2099193920
-      NetSwingSpongeBob_70: 1807524930
-      NetSwingSpongeBob_71: 580013099
-      NetSwingSpongeBob_72: 1879509310
-      NetSwingSpongeBob_73: -1846377337
-      NetSwingSpongeBob_74: 186396768
-      NetSwingSpongeBob_75: 797352812
-      NetSwingSpongeBob_76: 1294433207
-      NetSwingSpongeBob_77: -1810798292
-      NetSwingSpongeBob_8: -1515603328
-      NetSwingSpongeBob_82: -1937311239
-      NetSwingSpongeBob_83: -532872697
-      NetSwingSpongeBob_84: -1080991871
-      NetSwingSpongeBob_85: 1304691362
-      NetSwingSpongeBob_86: 1492154001
-      NetSwingSpongeBob_87: -1974616946
-      NetSwingSpongeBob_88: 1744429739
-      NetSwingSpongeBob_89: 1490430191
-      NetSwingSpongeBob_9: -1438265599
-      NetSwingSpongeBob_90: -1823616516
-      NetSwingSpongeBob_91: 1761993904
-      NetSwingSpongeBob_92: -756743273
-      NetSwingSpongeBob_93: -1382984648
-      NetSwingSpongeBob_94: 1456203520
-      NetSwingSpongeBob_95: 966318065
-      NetSwingSpongeBob_96: 589657093
-      NetSwingSpongeBob_97: 221041059
-      NetSwingSpongeBob_98: -1372111398
-      NetSwingSpongeBob_99: -1079223885
-      jump2: -864044173
-      jump3: 427943235
+      Flute0: 879719419
+      Flute1: -911478336
+      RangeSpongeBob_0: 1577361375
+      RangeSpongeBob_1: 413301345
+      RangeSpongeBob_10: -1196672740
+      RangeSpongeBob_11: -945421606
+      RangeSpongeBob_12: -19540264
+      RangeSpongeBob_13: 761585246
+      RangeSpongeBob_14: 1910421838
+      RangeSpongeBob_17: 1400093187
+      RangeSpongeBob_18: 868631336
+      RangeSpongeBob_19: 980056484
+      RangeSpongeBob_2: 969772682
+      RangeSpongeBob_20: 358351636
+      RangeSpongeBob_21: 1269499748
+      RangeSpongeBob_22: -5988801
+      RangeSpongeBob_23: 1943780806
+      RangeSpongeBob_24: 1373840825
+      RangeSpongeBob_25: -87226734
+      RangeSpongeBob_26: 1545470623
+      RangeSpongeBob_27: 40190977
+      RangeSpongeBob_28: -58393724
+      RangeSpongeBob_29: 515282607
+      RangeSpongeBob_3: -1565995801
+      RangeSpongeBob_30: 1590971100
+      RangeSpongeBob_31: 759147624
+      RangeSpongeBob_32: 132906613
+      RangeSpongeBob_33: 659187460
+      RangeSpongeBob_34: 1868630499
+      RangeSpongeBob_35: 997810653
+      RangeSpongeBob_36: -1767137055
+      RangeSpongeBob_37: -386818917
+      RangeSpongeBob_38: 682195647
+      RangeSpongeBob_39: -720541543
+      RangeSpongeBob_4: 2147385947
+      RangeSpongeBob_40: -1058957187
+      RangeSpongeBob_41: -546775577
+      RangeSpongeBob_42: -812343583
+      RangeSpongeBob_43: 638131337
+      RangeSpongeBob_44: 1865429153
+      RangeSpongeBob_46: 344198790
+      RangeSpongeBob_47: 122966641
+      RangeSpongeBob_48: -1123987257
+      RangeSpongeBob_49: 1639057977
+      RangeSpongeBob_5: 1075720427
+      RangeSpongeBob_50: -529782800
+      RangeSpongeBob_51: -230592752
+      RangeSpongeBob_52: 895206300
+      RangeSpongeBob_53: 99928997
+      RangeSpongeBob_54: -1800554036
+      RangeSpongeBob_55: 1903258981
+      RangeSpongeBob_56: -825036572
+      RangeSpongeBob_57: -322568629
+      RangeSpongeBob_58: 1806059930
+      RangeSpongeBob_59: 1952700873
+      RangeSpongeBob_6: 1083482375
+      RangeSpongeBob_60: -1373073079
+      RangeSpongeBob_61: -646870173
+      RangeSpongeBob_62: -232655256
+      RangeSpongeBob_63: -2118003323
+      RangeSpongeBob_64: -2077395071
+      RangeSpongeBob_65: -89482275
+      RangeSpongeBob_66: 1909116500
+      RangeSpongeBob_67: 1251024110
+      RangeSpongeBob_68: 1324757367
+      RangeSpongeBob_7: -911534514
+      RangeSpongeBob_8: -376932071
+      RangeSpongeBob_9: 1949363611
+      hit: -1772340107
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

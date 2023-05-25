@@ -6,13 +6,12 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 public class Arm : MonoBehaviour
 {
-    private Collider2D armcollider;
-    private Rigidbody2D rb;
+    // private Collider2D armcollider;
+    // private Rigidbody2D rb;
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
     public Vector3 returnPosition;
     
-
     [SerializeField] public Transform player;
     [SerializeField] public float moveSpeed;
     [SerializeField] public LayerMask groundMask;
@@ -20,8 +19,8 @@ public class Arm : MonoBehaviour
 
     private void Awake()
     {
-        armcollider = GetComponent<Collider2D>();
-        rb = GetComponent<Rigidbody2D>();
+        // armcollider = GetComponent<Collider2D>();
+        // rb = GetComponent<Rigidbody2D>();
         states = new StateBaseMekaSquidWard[(int)StateArm.Size];
         states[(int)StateArm.Idle] = new IdleState(this);
         states[(int)StateArm.Attack] = new AttackState(this, player);
@@ -201,7 +200,7 @@ namespace ArmState
         public override void Update()
         {
             Vector2 dir = (arm.returnPosition - arm.transform.position).normalized;
-            arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
+            arm.transform.Translate(dir * arm.moveSpeed / 2 * Time.deltaTime);
         
             if(Vector2.Distance(arm.transform.position, arm.returnPosition) < 0.2)
             {

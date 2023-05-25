@@ -19,7 +19,7 @@ public partial class FlyDutchManController : MonoBehaviour
         public override void Setup()
         {
             target = owner.target;
-            range = owner.traceRange;
+            range = owner.FireRange;
             speed = owner.moveSpeed;
             OnFired = owner.OnFired;
         }
@@ -36,6 +36,11 @@ public partial class FlyDutchManController : MonoBehaviour
         //코루틴으로 쏴야함
         public override void Update()
         {
+            //움직이면써 쏘기
+            Vector2 dir = (target.position - transform.position).normalized;
+            rigidbody.velocity = dir * speed;
+            renderer.flipX = rigidbody.velocity.x > 0 ? true : false;
+
             if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f) // fire 애니메이션이 끝났으면
             {
                 //OnFired?.Invoke();
@@ -43,7 +48,7 @@ public partial class FlyDutchManController : MonoBehaviour
         }
         public override void Transition()
         {
-            if ((target.position - transform.position).sqrMagnitude < range * range)
+            if ((target.position - transform.position).sqrMagnitude > range * range)
             {
                 stateMachine.ChangeState(State.Trace);
             }

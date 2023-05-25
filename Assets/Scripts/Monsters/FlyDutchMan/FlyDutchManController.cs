@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public partial class FlyDutchManController : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public partial class FlyDutchManController : MonoBehaviour
     //Base Value
     private Transform target;
 
+    [Header("Debug")]
+    [SerializeField]
+    public TextMeshPro CurState;
+
 
     [Header("Status")]
     [SerializeField]
@@ -31,6 +36,9 @@ public partial class FlyDutchManController : MonoBehaviour
     private float traceRange;
     [SerializeField]
     private float FireRange;
+    [SerializeField]
+    private float StopRange;
+
 
 
     [Header("Events")]
@@ -73,6 +81,7 @@ public partial class FlyDutchManController : MonoBehaviour
     {
         CheckDie();
         stateMachine.Update();
+        CurState.text = stateMachine.GetNowState().ToString();
     }
 
     //Basic State
@@ -109,6 +118,9 @@ public partial class FlyDutchManController : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, FireRange);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, StopRange);
     }
 
 

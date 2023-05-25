@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,9 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rangeAttackRange;
     [SerializeField] private Transform ShootPos;
 
-    [Header("Player Test Attack")]
+    [Header("Debug Test Attack and Hit")]
     //[SerializeField] private float rangeAttackRange;
-
+    [SerializeField] private TextMeshPro HPText;
     [Header("Layer Masking")]
     [SerializeField] private LayerMask groundMask;
 
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
     private bool isHited;
     private bool isDied;
 
-    private Coroutine moveRoutine;
+    private Coroutine mainRoutine;
 
     private void Awake()
     {
@@ -56,12 +57,16 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        //moveRoutine = StartCoroutine(MoveRoutine());
+        //mainRoutine = StartCoroutine(MoveRoutine());
     }
 
     private void Update()
     {
         CheckDie();
+        if (HPText != null)
+        {
+            HPText.text = Hp.ToString();
+        }
     }
 
     private void FixedUpdate()
@@ -82,7 +87,7 @@ public class PlayerController : MonoBehaviour
     {
         inputDir = value.Get<Vector2>();
 
-        moveRoutine = StartCoroutine(MoveRoutine());
+        mainRoutine = StartCoroutine(MoveRoutine());
       
         OnMoved?.Invoke(inputDir);
     }
@@ -162,9 +167,32 @@ public class PlayerController : MonoBehaviour
         while (true)
         {
             if (inputDir.x < 0 && rigidbody.velocity.x > -maxSpeed) // 왼쪽으로 이동하는데 , 속력이 최고 속력이 아닐때
+            {
+
                 rigidbody.AddForce(Vector2.right * inputDir.x * movePower);
+
+                if (rigidbody.velocity.x > -maxSpeed) // 이동시 최대 속력을 넘어가면
+                {
+                    Vector2 temp = new Vector2() { x = rigidbody.velocity.x, y = rigidbody.velocity.y };
+                    temp.x = -maxSpeed;
+                    rigidbody.velocity = temp;
+                }
+
+            }
             else if (inputDir.x > 0 && rigidbody.velocity.x < maxSpeed)// 오른쪽으로 이동하는데 , 속력이 최고 속력이 아닐때
+            {
                 rigidbody.AddForce(Vector2.right * inputDir.x * movePower);
+
+                if (rigidbody.velocity.x < maxSpeed) // 이동시 최대 속력을 넘어가면
+                {
+                    Vector2 temp = new Vector2() { x = rigidbody.velocity.x, y = rigidbody.velocity.y };
+                    temp.x = maxSpeed;
+                    rigidbody.velocity = temp;
+                }
+
+            }
+         
+            //Debug.Log("MoveSpeed velocity:" + rigidbody.velocity.x);
 
             animator.SetFloat("MoveDir", Mathf.Abs(inputDir.x));
             if (inputDir.x > 0) 
@@ -194,27 +222,34 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("IsDied", true);
+
         OnDied?.Invoke();
+
+        //if die go To Robby
+        //GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
     }
 
     public void Hit(int Damage)
     {
         Hp -= Damage;
 
-        if (Hp < 0)
+        if (Hp <= 0)
         {
             Hp = 0;
             isDied = true;
-
             return;
         }
 
-        StartCoroutine(HitRoutine());
+        if (mainRoutine != null)
+        {
+            StopCoroutine(mainRoutine);
+        }
+        mainRoutine = StartCoroutine(HitRoutine());
     }
 
     private IEnumerator HitRoutine()
     {
-        StopCoroutine(moveRoutine);
+        
         animator.SetBool("IsHited", true);
         isHited = true;
 
@@ -223,6 +258,6 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("IsHited", false);
         isHited = false;
-        moveRoutine = StartCoroutine(MoveRoutine());
+        mainRoutine = StartCoroutine(MoveRoutine());
     }
 }

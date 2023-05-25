@@ -247,9 +247,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73d2d55725be6b48a93c0d2722a8aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
+  maxSpeed: 6
   movePower: 2
-  jumpPower: 10
+  jumpPower: 12
   Hp: 3
   hitStunTime: 1
   melleAttackRange: 2

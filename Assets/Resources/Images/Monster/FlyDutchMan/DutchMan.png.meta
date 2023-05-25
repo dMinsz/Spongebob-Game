@@ -1,0 +1,3715 @@
+fileFormatVersion: 2
+guid: 85a079a8576646f47aef3a41ff9fba45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1047
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce94ebe0cf37ac840841124c16726ae0
+      internalID: 918002913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1047
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a63e4ff633eb498b14cf8a04d9f05
+      internalID: 2031356559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1047
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7534ea05148f194b982f7e2d91616a0
+      internalID: -2145933652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1047
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bce8eff43a7fc47ae8bf141a8e2338
+      internalID: -604518701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1047
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f025b92df4f3b4ca592e86219e6dbe
+      internalID: 595050892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1047
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0012cb24dbeaf5c49a415ba6f417f4e8
+      internalID: -1971193409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle6
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1047
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21756370bee7a574da26f31dfe12b64b
+      internalID: 962842959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1047
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b9e13a0842da94ca71f81f47961eed
+      internalID: 166314140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1047
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6049e5e3edcf6e49bd48d1349da41aa
+      internalID: -932951376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1047
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b8987684e13dd4497f9a952c84ecdd
+      internalID: 104435730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1047
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e4f3adac29e3549a9d9f9075fc4b00
+      internalID: -1310006300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ca82f3d65e2f6438424d4eba5ea1e6
+      internalID: 1839179055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 970
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c411fea5b7f478244b6a4e08ccea7cc8
+      internalID: -1061774001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 970
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09949d4b33355b49a5006f1cd37ae49
+      internalID: -83393034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 970
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffcb7be6d40c3d43a357d348cf87d72
+      internalID: 1277828652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 970
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad21ed21cea20b48a46ea52534ae83a
+      internalID: -1513212505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 881
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b71e62d223e0a49b211ee1aee72537
+      internalID: 2097476316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 881
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70586a6a1d601543a51f296e6eaa75c
+      internalID: 606548496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 881
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a935f1c43ff71449aa3e2b11b0bce5b
+      internalID: -536861704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 881
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a9983b4f8ed748b438aa0d7b8601d
+      internalID: 119250749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 881
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72ecec411624544b9454afeff40043b
+      internalID: 1476888517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 881
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fc277858d152143ada42ed975f028e
+      internalID: 1948784157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 881
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7752040a7a797204f98cd527a99a966e
+      internalID: -1798000803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5aabc467e948946820bc817a7dacc5
+      internalID: -516272167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 855
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab6a91c68853fd4e9039be204053b90
+      internalID: -1065929412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 855
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8e220d09182714abe2e7a8e99cf3a8
+      internalID: 597065949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 855
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c38d7b6f9ea8e4497f476f762982bb
+      internalID: -1375363044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 855
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89414d400dd4f7f40accc1c2b2e85e18
+      internalID: 1736547555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 855
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e162a7fdb0b23c7489c4589017bcbde7
+      internalID: -932975732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 855
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd319a2bba2b12e449bb7a31852d983d
+      internalID: 419997246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b7dcd4cbaf2724ea88fff355e67314
+      internalID: -415918398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 820
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4db27ba841cb944bb5d88b1bfb634af
+      internalID: 1093648411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_40
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 846
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880621c78c8520e4fb790157dac72b0a
+      internalID: -677209922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 820
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec9196326d563b4ea4e77a611e8a92e
+      internalID: -1820915109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 820
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d21f243cd904ed4e9c77fb09a0c8bb6
+      internalID: 1442421150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 820
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e36d57917dd649adac45c91c075fa
+      internalID: 725046066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_45
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 820
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0edc55306403a34eaf9223a2b4308f7
+      internalID: -868521866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 820
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598df9538aadd3640931a66d2adba3b5
+      internalID: 595635411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0941400570509f489589d06fa3d0808
+      internalID: 1265492568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_48
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 733
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb4a8a17a234a24992ea5a24955c071
+      internalID: 339342243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_49
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 733
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49e67077e77f73419b2f38d6d168acf
+      internalID: 1025942976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_50
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 733
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15c573d19fa6a34ca02d8623f915a50
+      internalID: -716396504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 733
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636c883db6557674bb1dc9aa283cb23e
+      internalID: 1557913184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_52
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 733
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88813cac31dadd4badfb3039e59c25f
+      internalID: 1821001958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_53
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 733
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f5f3fe6f20ae4699681c8c05de210
+      internalID: 783362237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_54
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 733
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac0f49d1131d4a4d9bdfc9acd1e434d
+      internalID: 199004464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_55
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 733
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33935464805bce648beb0eac2eef4195
+      internalID: -717533491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_56
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 733
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9c7e70b70aed4097c154c914f7920
+      internalID: -413067374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_57
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 733
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1771b865ae84b42b207c3cb8075d7c
+      internalID: 276860766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_58
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 733
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893531743fd924447a32ff4c9631b4ab
+      internalID: 1895663777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_59
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 733
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92c5d6c2a3c3e44c877aceeb60e53a3
+      internalID: 1146014823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556c568983a4646489abe70aaca3d009
+      internalID: 1315929379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_65
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c578e2e151b59240963fd75efd46687
+      internalID: 1028578541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 639
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7825ac6ce66fae4ca4f532b2304601d
+      internalID: 1027419629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_67
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 639
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e13b83224f1d43ac698ef8b9492ad
+      internalID: -1481016860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_68
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 639
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414376b6d96c6d4ab4b4ba7f75dd9b5
+      internalID: -1476531797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_69
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 639
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa139d79f149c240aa2a3c8c44b905e
+      internalID: 2068752623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_70
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 639
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bf50cd61faeaa48ad3748e675baf87
+      internalID: -980004278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 639
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fe1e60029f79b4290ffef5eb5da05b
+      internalID: 249467228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_72
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 639
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da96efd5e4ac6f046867eb5105263a59
+      internalID: 1752428905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0def397c621459c4e9c88bc6b7b3b38b
+      internalID: -1037876133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_77
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 602
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420cc2d2b8e41264ea1964b99abfb35a
+      internalID: 1702897392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_78
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 602
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ebf71053c101d4e873a6cff7fdf8a2
+      internalID: 819724127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_79
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 602
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf97fd8338eafdb41b5720169347d5ae
+      internalID: -1532250189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_80
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 602
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6f5a1e69a06e440a5457b92a24e246
+      internalID: 1213552811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 602
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d3f7b36cac6a740a44bfc51bcc4629
+      internalID: -493542075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_82
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 602
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ddee9dc7bf30b48afd223b83386bb4
+      internalID: 2113402110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 602
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6047bc72014d14297347b35bc3a7d0
+      internalID: -538703267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad21eea057ad5e44faa1c788b07e6404
+      internalID: -226693873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 564
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68826d7e0fb211d489bbbe0770546a27
+      internalID: 2074875041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_86
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 564
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24157b43fccc6f543bcc5a31637a5201
+      internalID: -109228532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_87
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 564
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4301865e7cfcf34a9bc6f3f0bf96c3d
+      internalID: -440625397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_88
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 564
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fca323cd616c84eaeeb95e231a229d
+      internalID: 1726579484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 564
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26f13dd9dfe184e9353e4ced2767cc
+      internalID: 1228302661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_90
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 564
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1817af7dd00bca040b55282edc57ff6b
+      internalID: 1442959677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_91
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 564
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310e89e8e8b5c06439c746b5d395a27d
+      internalID: -1813451005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_92
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 564
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f3a00717453af46b1a0bd5b2b0fa29
+      internalID: 1814718447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5640cd09104d0b643a2cba45d8dedcc5
+      internalID: -1740763990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_94
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 533
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f91e6ebe2a01b846a253ee5a4793e0f
+      internalID: 32873169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_95
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 533
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ef03d1396e294a8392c1c638972ef
+      internalID: 2116499293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_96
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 533
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5cd6feff2cad74f82468dc318f6870
+      internalID: 1010188475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 533
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56cb2c44a2c2e4984bfa1948415c5c
+      internalID: -887948172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_98
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 533
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a282556b8f52a9242a141d566fa67ee2
+      internalID: -1832797946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 533
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92e47960a7465b468641d3b7bb1120c
+      internalID: -1919775451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_100
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 533
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12c2c0f84805e54d9e39352492cfe65
+      internalID: 466646954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_101
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 533
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c554e39eb920c146bb3f3d5115f2047
+      internalID: -1592964363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af807f21daae784698a8665c8719d7b
+      internalID: 175327134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 439
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fba5d537721fe64aaef73250b539588
+      internalID: -1294513339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 439
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc122d48696d2b42a70f5bd03b79b30
+      internalID: 1956158562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 439
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7615361554f4f634d89d5d47547a99f0
+      internalID: -1937723990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 439
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860e240b9f3b844199789d221c90a59
+      internalID: 1596963300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 439
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e9805ee977a24b9e34aaa6e157860
+      internalID: -728272634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 439
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d7429c477d49d498aebd235692285d
+      internalID: -2008902165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 439
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1e5b1d637aafb4282680d38916055f
+      internalID: -1730616279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c81066b240d07743891ab325cd3f716
+      internalID: 1727806509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_113
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 344
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd38ee2580a054688139da89298e73
+      internalID: -1028350433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_114
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 344
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff39d6c1b5fc2c4194eb4fad9cb2f43
+      internalID: -1664659188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_115
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 344
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee299cf3243e354db3e4abd0bb3e39d
+      internalID: 1108501530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_116
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 344
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9cb10612b36ea4fac8d73f204b9ea9
+      internalID: 1255030423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_117
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 344
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe167e347567fa42a24c440db9292c7
+      internalID: 1215969368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_118
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 344
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0adedb4811a17b45adf17d9da9bbcb4
+      internalID: -896601104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_119
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 344
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3042b8861324e4da2a4cec5f2c98aa
+      internalID: 700703731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_120
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 344
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df5edf98573f9d43b6118df0d9a6bbf
+      internalID: -2101554300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_121
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 344
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec918b6e136c5e04bbfd0f2e2202d9de
+      internalID: 982254338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_122
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 344
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1332c4830d142746a69efa73d5eb924
+      internalID: 1124199377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_123
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 344
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cde23d01649464aaeb6c5cc2258d92
+      internalID: 591952103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_124
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 344
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24483d5477941b44913e84e892e4f11
+      internalID: -1863776620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_125
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 344
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e1702d27ac6714baa78855b0c4066f
+      internalID: 1518651635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fc00620c8e5e4c98d0be7f66d8f81
+      internalID: -1188015308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_129
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 309
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709743379ae547e44907829cd1deda87
+      internalID: -335845413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_130
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 312
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4267e3677132e4495c210f2ef7aa4a
+      internalID: -562533008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_131
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 310
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6edfc1e22a44044bd3d7b3f677d03e
+      internalID: 403817702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_132
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 310
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27878b31e32c734f896d403b7684d8f
+      internalID: -1222750358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_133
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 307
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117c906040d4d0c458c11ac087966178
+      internalID: -875395592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebcfe2d3b4d5a44f9e6bb084be093ed
+      internalID: -422454465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 223
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd07aab6f9627f343ba43766f8bd2bbb
+      internalID: -295093322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 223
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e93ac529208ad488f4d7c67376b94d
+      internalID: 857794351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 223
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b2ca303bbc5264795bbba0cb53edb5
+      internalID: 1048226393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 223
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8688571cda3418945858bd57220e40e1
+      internalID: -1139376522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 223
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde02dcd2c1177e4e9f82a95e4e814f5
+      internalID: -357162842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 223
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3e23ed1e43f7f41b3382d59d8c6eca
+      internalID: -905381258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 223
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbafd4aba07d2a47925c18ebd2f3117
+      internalID: 955551312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 223
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21842b2f4ce727f48a75568e716fca92
+      internalID: -245423375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 223
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc188122271edac4a83ac309cb9a1e46
+      internalID: 378894480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move17
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 223
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dff60de8cd8ac4fbc05d2bdd61c988
+      internalID: 1206292344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move18
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 223
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0553ed4a7a6792941b5a8cb2ddf965fe
+      internalID: -693940241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 223
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cf93301240f3444a43a5dc1b30fc1b
+      internalID: 995539757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 223
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4751db47e53bc1a43ac565d11e08ca5e
+      internalID: -1740812292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move12
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 223
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9617f8a48ab49d447926036fe19d28ab
+      internalID: 991898344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 223
+        width: 80
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9744d308a9a1459e16c5d5b75b852
+      internalID: -324449658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 223
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3744c5dfff42d0a4eb5dc2b3a6a2fb1f
+      internalID: 1266747604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 223
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90565a76cffd7543a4aae4f15a7087f
+      internalID: -2093640356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move16
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 223
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31108a91fe6d1a046a4c80d3d3901b31
+      internalID: 1903627451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5c204f6e52824bb7d337a48a5e169
+      internalID: -723252134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_156
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 200
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9695be96f0410574aa590fb3550de005
+      internalID: -1167148787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_157
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0157ddce6a75112499ab8608cf0f06f4
+      internalID: -1294672569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_158
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 200
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013ea223d09d3c478df46400966c019
+      internalID: -546057677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_159
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 200
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded4fa3eabd2a6344819f0032cbf6002
+      internalID: 1657142069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_160
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 200
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee252dbb580284448edda07742650ed
+      internalID: -578245805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510e5c63b3b17e46a451581306ce047
+      internalID: -545017519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_162
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 177
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98944c4fb147fd647a3666ae47d812eb
+      internalID: -846649719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_163
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 177
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0b9a904c3e284e9b7675dcd0c9a36
+      internalID: 703029562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 177
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aef42f59b8c754b92f039d475de1d3
+      internalID: 159280372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_165
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 177
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7847c718e4fe9418f633a341c3f7b7
+      internalID: 289220740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_166
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 177
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a91c2cc0090e3a4f90cea2de30c8872
+      internalID: -773466421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 177
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be510f85533d9429bbefc03d181c52
+      internalID: -907829259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_168
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 177
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e67191e2eded47a4ef35a77bb21fe
+      internalID: 276734802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027343032b497774b82df53ce4438a82
+      internalID: 1150199587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_173
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 90
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dea8c0bcea9b424f9f2c066d0af0599
+      internalID: 1635854418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_174
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 90
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bd3198652650c478972ace0c16e630
+      internalID: -342584527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f05c75452a04241a928ab416dc9749
+      internalID: 1596158453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_177
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4743f5adce8f4699cce6cd082ee97
+      internalID: 1393625605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_178
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bdd0019f93f2d4f9201992a61388d8
+      internalID: -1169437972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_179
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86a8a76d13ddae4ab4bf15edca65583
+      internalID: 1699056733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_180
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dba3ca31fd22840b607c425e36798c
+      internalID: 1543848804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_181
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8ec892c4463f84b9404693174d6853
+      internalID: -2024556191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_182
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c952a1afd2cef48801bc90e58047f9
+      internalID: -1537888198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_183
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c2075dc5b1574da6900d76a30d8dc
+      internalID: 363601921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_184
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec9c268b0dbe094cb4f7304ce8469da
+      internalID: 1534839789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_185
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c495cceeeda54c54dbaaf2b5dd467652
+      internalID: -1050307802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DutchMan_186
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9495746681fc1ae4495a7490c52a0661
+      internalID: 1635971429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DutchMan_100: 466646954
+      DutchMan_101: -1592964363
+      DutchMan_11: 1775473645
+      DutchMan_110: -420192342
+      DutchMan_111: 1894559552
+      DutchMan_112: 1727806509
+      DutchMan_113: -1028350433
+      DutchMan_114: -1664659188
+      DutchMan_115: 1108501530
+      DutchMan_116: 1255030423
+      DutchMan_117: 1215969368
+      DutchMan_118: -896601104
+      DutchMan_119: 700703731
+      DutchMan_12: -1108255848
+      DutchMan_120: -2101554300
+      DutchMan_121: 982254338
+      DutchMan_122: 1124199377
+      DutchMan_123: 591952103
+      DutchMan_124: -1863776620
+      DutchMan_125: 1518651635
+      DutchMan_126: 602678947
+      DutchMan_127: 1617845508
+      DutchMan_128: -1188015308
+      DutchMan_129: -335845413
+      DutchMan_13: 1839179055
+      DutchMan_130: -562533008
+      DutchMan_131: 403817702
+      DutchMan_132: -1222750358
+      DutchMan_133: -875395592
+      DutchMan_14: -1061774001
+      DutchMan_146: -796715345
+      DutchMan_147: -978743186
+      DutchMan_15: -83393034
+      DutchMan_155: -723252134
+      DutchMan_156: -1167148787
+      DutchMan_157: -1294672569
+      DutchMan_158: -546057677
+      DutchMan_159: 1657142069
+      DutchMan_16: 1277828652
+      DutchMan_160: -578245805
+      DutchMan_161: -545017519
+      DutchMan_162: -846649719
+      DutchMan_163: 703029562
+      DutchMan_164: 159280372
+      DutchMan_165: 289220740
+      DutchMan_166: -773466421
+      DutchMan_167: -907829259
+      DutchMan_168: 276734802
+      DutchMan_169: -1232146475
+      DutchMan_17: -1513212505
+      DutchMan_170: -193076449
+      DutchMan_171: 165145666
+      DutchMan_172: 1150199587
+      DutchMan_173: 1635854418
+      DutchMan_174: -342584527
+      DutchMan_175: 849225799
+      DutchMan_176: 1596158453
+      DutchMan_177: 1393625605
+      DutchMan_178: -1169437972
+      DutchMan_179: 1699056733
+      DutchMan_18: -1265788506
+      DutchMan_180: 1543848804
+      DutchMan_181: -2024556191
+      DutchMan_182: -1537888198
+      DutchMan_183: 363601921
+      DutchMan_184: 1534839789
+      DutchMan_185: -1050307802
+      DutchMan_186: 1635971429
+      DutchMan_19: -598370474
+      DutchMan_25: -1350792556
+      DutchMan_26: 129790833
+      DutchMan_27: 577630163
+      DutchMan_37: -415918398
+      DutchMan_38: -1885322968
+      DutchMan_39: 1093648411
+      DutchMan_40: -677209922
+      DutchMan_41: -1820915109
+      DutchMan_42: 1442421150
+      DutchMan_43: 725046066
+      DutchMan_44: -1198689604
+      DutchMan_45: -868521866
+      DutchMan_46: 595635411
+      DutchMan_47: 1265492568
+      DutchMan_48: 339342243
+      DutchMan_49: 1025942976
+      DutchMan_50: -716396504
+      DutchMan_51: 1557913184
+      DutchMan_52: 1821001958
+      DutchMan_53: 783362237
+      DutchMan_54: 199004464
+      DutchMan_55: -717533491
+      DutchMan_56: -413067374
+      DutchMan_57: 276860766
+      DutchMan_58: 1895663777
+      DutchMan_59: 1146014823
+      DutchMan_60: -217772277
+      DutchMan_61: -1574533245
+      DutchMan_62: 1539753412
+      DutchMan_63: -1049312531
+      DutchMan_64: 1315929379
+      DutchMan_65: 1028578541
+      DutchMan_66: 1027419629
+      DutchMan_67: -1481016860
+      DutchMan_68: -1476531797
+      DutchMan_69: 2068752623
+      DutchMan_70: -980004278
+      DutchMan_71: 249467228
+      DutchMan_72: 1752428905
+      DutchMan_73: 173381379
+      DutchMan_74: -1616625753
+      DutchMan_75: 1820025637
+      DutchMan_76: -1037876133
+      DutchMan_77: 1702897392
+      DutchMan_78: 819724127
+      DutchMan_79: -1532250189
+      DutchMan_80: 1213552811
+      DutchMan_81: -493542075
+      DutchMan_82: 2113402110
+      DutchMan_83: -538703267
+      DutchMan_84: -226693873
+      DutchMan_85: 2074875041
+      DutchMan_86: -109228532
+      DutchMan_87: -440625397
+      DutchMan_88: 1726579484
+      DutchMan_89: 1228302661
+      DutchMan_90: 1442959677
+      DutchMan_91: -1813451005
+      DutchMan_92: 1814718447
+      DutchMan_93: -1740763990
+      DutchMan_94: 32873169
+      DutchMan_95: 2116499293
+      DutchMan_96: 1010188475
+      DutchMan_97: -887948172
+      DutchMan_98: -1832797946
+      DutchMan_99: -1919775451
+      Fire0: 2097476316
+      Fire1: 606548496
+      Fire2: -536861704
+      Fire3: 119250749
+      Fire4: 1948784157
+      Fire5: -1798000803
+      Fire6: 1476888517
+      Flame0: -516272167
+      Flame1: -1065929412
+      Flame2: 597065949
+      Flame3: -1375363044
+      Flame4: 1736547555
+      Flame5: -932975732
+      Flame6: 419997246
+      Hit0: 175327134
+      Idle0: 918002913
+      Move0: -422454465
+      Move1: -295093322
+      Move10: 995539757
+      Move11: -1740812292
+      Move12: 991898344
+      Move13: -324449658
+      Move14: 1266747604
+      Move15: -2093640356
+      Move16: 1903627451
+      Move17: 1206292344
+      Move18: -693940241
+      Move2: 857794351
+      Move3: 1048226393
+      Move4: -1139376522
+      Move5: -357162842
+      Move6: -905381258
+      Move7: 955551312
+      Move8: -245423375
+      Move9: 378894480
+      hit1: -1294513339
+      hit2: 1956158562
+      hit3: -1937723990
+      hit4: 1596963300
+      hit5: -728272634
+      hit6: -2008902165
+      hit7: -1730616279
+      idle1: 2031356559
+      idle10: -1310006300
+      idle2: -2145933652
+      idle3: -604518701
+      idle4: 595050892
+      idle5: -1971193409
+      idle6: 962842959
+      idle7: 166314140
+      idle8: -932951376
+      idle9: 104435730
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

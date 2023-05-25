@@ -5,7 +5,7 @@ using ArmState;
 
 public class Arm : MonoBehaviour
 {
-    private Collider2D collider;
+    public Collider2D armcollider;
     private Rigidbody2D rb;
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
@@ -13,15 +13,17 @@ public class Arm : MonoBehaviour
 
     [SerializeField] public Transform player;
     [SerializeField] public float moveSpeed;
+    [SerializeField] public LayerMask groundMask;
     // [SerializeField] public Collider2D staybox;
 
     private void Awake()
     {
-        collider = GetComponent<Collider2D>();
+        armcollider = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
         states = new StateBaseMekaSquidWard[(int)StateArm.Size];
         states[(int)StateArm.Idle] = new IdleState(this);
         states[(int)StateArm.Attack] = new AttackState(this);
+        states[(int)StateArm.TakeDown] = new TakeDownState(this);
         states[(int)StateArm.Return] = new ReturnState(this);
     }
 
@@ -38,9 +40,18 @@ public class Arm : MonoBehaviour
         states[(int)curState].Update();
     }
 
-    public void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        curState = StateArm.Return;
+        if(collision.tag == player.tag)
+        {
+            curState = StateArm.Return;
+        }
+    }
+
+    public bool IsGroundExist()
+    {
+        Debug.DrawRay(transform.position, Vector2.down, Color.red);
+        return Physics2D.Raycast(transform.position, Vector2.down, 1f, groundMask);
     }
 
     public void ChangeState(StateArm state)
@@ -54,7 +65,7 @@ public class Arm : MonoBehaviour
 
 namespace ArmState
 {
-    public enum StateArm { Idle, Attack, Return, Size }
+    public enum StateArm { Idle, Attack, TakeDown, Return, Size }
 
     public class IdleState : StateBaseMekaSquidWard
     {
@@ -83,8 +94,6 @@ namespace ArmState
             }
         }
 
-        
-
         public override void Exit()
         {
             Debug.Log("´ë±â³¡");
@@ -95,7 +104,7 @@ namespace ArmState
     {
         private Arm arm;
 
-        private Transform attacktransform;
+        private static Transform attacktransform;
         private float attackedtime;
 
         public AttackState(Arm arm)
@@ -117,7 +126,7 @@ namespace ArmState
             Vector2 dir = (attacktransform.position - arm.transform.position).normalized;
             arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
 
-            if (attackedtime > 5)
+            if (attackedtime > 5 || arm.IsGroundExist())
             {
                 arm.ChangeState(StateArm.Return);
             }
@@ -130,6 +139,33 @@ namespace ArmState
 
     }
 
+    public class TakeDownState : StateBaseMekaSquidWard
+    {
+        private Arm arm;
+
+        public TakeDownState(Arm arm)
+        {
+            this.arm = arm;
+        }
+
+
+
+        public override void Enter()
+        {
+            
+        }
+
+        public override void Update()
+        {
+            
+        }
+
+        public override void Exit()
+        {
+            
+        }
+    }
+
     public class ReturnState : StateBaseMekaSquidWard
     {
         private Arm arm;
@@ -137,8 +173,7 @@ namespace ArmState
         public ReturnState(Arm arm)
         {
             this.arm = arm;
-        }
-
+        } 
 
         public override void Enter()
         {

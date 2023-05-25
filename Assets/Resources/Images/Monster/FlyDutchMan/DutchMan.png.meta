@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 510a5477b96b315479ba600d6d1f869d
+guid: 85a079a8576646f47aef3a41ff9fba45
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,55 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Map1_0
+      name: DutchMan_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 312
-        width: 480
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b5b386c0aa5c048b9d06642f1fbdfd
-      internalID: -768575618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map1_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 127
-        width: 480
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42526c999cb6c7e48b17f7f79bed9dcf
-      internalID: -1881804684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile0
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 275
-        width: 16
-        height: 16
+        x: 650
+        y: 341
+        width: 77
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,29 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 555cef399fa6c2745a755d50cc126537
-      internalID: 796725893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 276
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60270d14dbca0a4428309f09a8a34056
-      internalID: -1351552677
+      spriteID: ce94ebe0cf37ac840841124c16726ae0
+      internalID: 918002913
       vertices: []
       indices: 
       edges: []
@@ -223,10 +160,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Map1_0: -768575618
-      Map1_1: -1881804684
-      Tile0: 796725893
-      Tile1: -1351552677
+      DutchMan_0: 918002913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

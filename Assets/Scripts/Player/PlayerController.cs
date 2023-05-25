@@ -63,7 +63,10 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         CheckDie();
-        HPText.text = Hp.ToString();
+        if (HPText != null)
+        {
+            HPText.text = Hp.ToString();
+        }
     }
 
     private void FixedUpdate()
@@ -219,7 +222,11 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("IsDied", true);
+
         OnDied?.Invoke();
+
+        //if die go To Robby
+        //GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
     }
 
     public void Hit(int Damage)
@@ -230,8 +237,6 @@ public class PlayerController : MonoBehaviour
         {
             Hp = 0;
             isDied = true;
-
-            animator.SetBool("IsDied",true);
             return;
         }
 

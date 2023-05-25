@@ -7,32 +7,37 @@ public class FireBullet : MonoBehaviour
 {
     [SerializeField] private float Speed;
     [SerializeField] private float lifetime = 3f;
-    //private Rigidbody2D rigd;
-
+    private Rigidbody2D rigd;
+    private GameObject player;
     private Vector3 targetPos;
 
     private void Awake()
     {
-        //rigd = GetComponent<Rigidbody2D>();
-        targetPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        rigd = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        targetPos = player.transform.position;
     }
 
     private void Update()
     {
-
         Vector2 dir = (targetPos - transform.position).normalized;
         this.transform.Translate(dir * Speed * Time.deltaTime);
-       
     }
 
     private void Start()
     {
-       
+        rigd.gravityScale = 0.0f;
         Destroy(gameObject, lifetime);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            player.GetComponent<PlayerController>().Hit(1);
+            Destroy(gameObject);
+        }
+
     }
+
 }

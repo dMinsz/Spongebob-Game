@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,9 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rangeAttackRange;
     [SerializeField] private Transform ShootPos;
 
-    [Header("Player Test Attack")]
+    [Header("Debug Test Attack and Hit")]
     //[SerializeField] private float rangeAttackRange;
-
+    [SerializeField] private TextMeshPro HPText;
     [Header("Layer Masking")]
     [SerializeField] private LayerMask groundMask;
 
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
     private bool isHited;
     private bool isDied;
 
-    private Coroutine moveRoutine;
+    private Coroutine mainRoutine;
 
     private void Awake()
     {
@@ -56,12 +57,13 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        //moveRoutine = StartCoroutine(MoveRoutine());
+        //mainRoutine = StartCoroutine(MoveRoutine());
     }
 
     private void Update()
     {
         CheckDie();
+        HPText.text = Hp.ToString();
     }
 
     private void FixedUpdate()
@@ -82,7 +84,7 @@ public class PlayerController : MonoBehaviour
     {
         inputDir = value.Get<Vector2>();
 
-        moveRoutine = StartCoroutine(MoveRoutine());
+        mainRoutine = StartCoroutine(MoveRoutine());
       
         OnMoved?.Invoke(inputDir);
     }
@@ -224,20 +226,25 @@ public class PlayerController : MonoBehaviour
     {
         Hp -= Damage;
 
-        if (Hp < 0)
+        if (Hp <= 0)
         {
             Hp = 0;
             isDied = true;
 
+            animator.SetBool("IsDied",true);
             return;
         }
 
-        StartCoroutine(HitRoutine());
+        if (mainRoutine != null)
+        {
+            StopCoroutine(mainRoutine);
+        }
+        mainRoutine = StartCoroutine(HitRoutine());
     }
 
     private IEnumerator HitRoutine()
     {
-        StopCoroutine(moveRoutine);
+        
         animator.SetBool("IsHited", true);
         isHited = true;
 
@@ -246,6 +253,6 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("IsHited", false);
         isHited = false;
-        moveRoutine = StartCoroutine(MoveRoutine());
+        mainRoutine = StartCoroutine(MoveRoutine());
     }
 }

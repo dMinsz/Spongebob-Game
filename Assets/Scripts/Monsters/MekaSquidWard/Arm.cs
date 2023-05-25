@@ -9,9 +9,10 @@ public class Arm : MonoBehaviour
     private Rigidbody2D rb;
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
+    public Vector3 returnPosition;
 
     [SerializeField] public Transform player;
-    [SerializeField] public Vector3 returnPosition;
+    [SerializeField] public float moveSpeed;
     // [SerializeField] public Collider2D staybox;
 
     private void Awake()
@@ -29,7 +30,7 @@ public class Arm : MonoBehaviour
         curState = StateArm.Idle;
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        returnPosition = player.position;
+        returnPosition = transform.position;
     }
 
     private void Update()
@@ -37,9 +38,9 @@ public class Arm : MonoBehaviour
         states[(int)curState].Update();
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-
+        curState = StateArm.Return;
     }
 
     public void ChangeState(StateArm state)
@@ -67,14 +68,15 @@ namespace ArmState
 
         public override void Enter()
         {
-            
+            Debug.Log("대기진입");
+            idleTime = 0;
         }
 
         public override void Update()
         {
-            idleTime = Time.deltaTime;
+            idleTime += Time.deltaTime;
 
-            if(idleTime > 8)
+            if(idleTime > 3)
             {
                 idleTime = 0;
                 arm.ChangeState(StateArm.Attack);
@@ -85,7 +87,7 @@ namespace ArmState
 
         public override void Exit()
         {
-            
+            Debug.Log("대기끝");
         }
     }
 
@@ -93,24 +95,37 @@ namespace ArmState
     {
         private Arm arm;
 
+        private Transform attacktransform;
+        private float attackedtime;
+
         public AttackState(Arm arm)
         {
             this.arm = arm;
+
         }
 
         public override void Enter()
         {
-            
+            Debug.Log("공격진입");
+            attacktransform = arm.player.transform;
+            attackedtime = 0;
         }
 
         public override void Update()
         {
+            attackedtime += Time.deltaTime;
+            Vector2 dir = (attacktransform.position - arm.transform.position).normalized;
+            arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
 
+            if (attackedtime > 5)
+            {
+                arm.ChangeState(StateArm.Return);
+            }
         }
 
         public override void Exit()
         {
-            
+            Debug.Log("공격끝");
         }
 
     }
@@ -124,19 +139,26 @@ namespace ArmState
             this.arm = arm;
         }
 
+
         public override void Enter()
         {
-            
+            Debug.Log("리턴진입");
         }
 
         public override void Update()
         {
-
+            Vector2 dir = (arm.returnPosition - arm.transform.position).normalized;
+            arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
+        
+            if(Vector2.Distance(arm.transform.position, arm.returnPosition) < 0.2)
+            {
+                arm.ChangeState(StateArm.Idle);
+            }
         }
 
         public override void Exit()
         {
-            
+            Debug.Log("리턴끝");
         }
     }
 }

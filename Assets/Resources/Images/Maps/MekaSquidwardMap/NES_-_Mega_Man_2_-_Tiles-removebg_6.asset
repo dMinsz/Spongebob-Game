@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: NES_-_Mega_Man_2_-_Tiles-removebg_6
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -308225355, guid: b1f7f495348ee89479caf9441e11643e, type: 3}
+  m_Sprite: {fileID: 1876840080, guid: b1f7f495348ee89479caf9441e11643e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -144,10 +144,10 @@ TextureImporter:
       name: NES_-_Mega_Man_2_-_Tiles-removebg_0
       rect:
         serializedVersion: 2
-        x: 804
-        y: 825
-        width: 62
-        height: 31
+        x: 860
+        y: 423
+        width: 26
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: NES_-_Mega_Man_2_-_Tiles-removebg_1
       rect:
         serializedVersion: 2
-        x: 868
-        y: 826
-        width: 62
-        height: 31
+        x: 1191
+        y: 979
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: NES_-_Mega_Man_2_-_Tiles-removebg_3
       rect:
         serializedVersion: 2
-        x: 834
-        y: 857
+        x: 803
+        y: 881
         width: 32
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: NES_-_Mega_Man_2_-_Tiles-removebg_4
       rect:
         serializedVersion: 2
-        x: 819
-        y: 922
+        x: 835
+        y: 857
         width: 31
-        height: 15
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 733f49c7941aef14d82dc740d1bfad00
-      internalID: 29862710
+      spriteID: 522368386a6e837499fe9cd0f985c973
+      internalID: 687435141
       vertices: []
       indices: 
       edges: []
@@ -249,52 +249,10 @@ TextureImporter:
       name: NES_-_Mega_Man_2_-_Tiles-removebg_5
       rect:
         serializedVersion: 2
-        x: 803
-        y: 880
-        width: 32
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4206017d8970c4440905611da4d9a735
-      internalID: 537107350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES_-_Mega_Man_2_-_Tiles-removebg_6
-      rect:
-        serializedVersion: 2
-        x: 867
-        y: 905
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f13fb97eff2ae14886b1f3090054f48
-      internalID: -308225355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES_-_Mega_Man_2_-_Tiles-removebg_7
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 826
+        x: 107
+        y: 693
         width: 128
-        height: 127
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2814df1dd2c2124180fa37a8521c3d4
-      internalID: -938820846
+      spriteID: 0bc8f4d465312de4fbac1c27d84e683c
+      internalID: 1876840080
       vertices: []
       indices: 
       edges: []
@@ -323,10 +281,8 @@ TextureImporter:
       NES_-_Mega_Man_2_-_Tiles-removebg_1: -1073166653
       NES_-_Mega_Man_2_-_Tiles-removebg_2: 810905065
       NES_-_Mega_Man_2_-_Tiles-removebg_3: -664817142
-      NES_-_Mega_Man_2_-_Tiles-removebg_4: 29862710
-      NES_-_Mega_Man_2_-_Tiles-removebg_5: 537107350
-      NES_-_Mega_Man_2_-_Tiles-removebg_6: -308225355
-      NES_-_Mega_Man_2_-_Tiles-removebg_7: -938820846
+      NES_-_Mega_Man_2_-_Tiles-removebg_4: 687435141
+      NES_-_Mega_Man_2_-_Tiles-removebg_5: 1876840080
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -11,7 +11,7 @@ public class Arm : MonoBehaviour
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
     public Vector3 returnPosition;
-    public int random;
+    
 
     [SerializeField] public Transform player;
     [SerializeField] public float moveSpeed;
@@ -73,6 +73,7 @@ namespace ArmState
     {
         private Arm arm;
         private float idleTime;
+        public int random;
 
         public IdleState(Arm arm)
         {
@@ -81,7 +82,7 @@ namespace ArmState
 
         public override void Enter()
         {
-            arm.random = Random.Range(1, 3);
+            random = Random.Range(1, 3);
             Debug.Log("대기진입");
             idleTime = 0;
         }
@@ -94,7 +95,7 @@ namespace ArmState
             {
                 idleTime = 0;
                 // arm.ChangeState(StateArm.Attack);
-                arm.ChangeState((StateArm)arm.random);
+                arm.ChangeState((StateArm)random);
                 
             }
         }

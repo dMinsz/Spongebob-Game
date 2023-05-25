@@ -10,8 +10,13 @@ public partial class FlyDutchManController : MonoBehaviour
         private Transform target;
         private float range;
         private float speed;
+        private float delay = 1.0f;
         private UnityEvent OnFired;
+        
+        private float timer = 0.0f;
+        
 
+        private Coroutine mainRoutine;
         public FireState(FlyDutchManController owner, StateMachine<State, FlyDutchManController> stateMachine) : base(owner, stateMachine)
         {
         }
@@ -21,6 +26,7 @@ public partial class FlyDutchManController : MonoBehaviour
             target = owner.target;
             range = owner.FireRange;
             speed = owner.moveSpeed;
+            delay = owner.fireDelay;
             OnFired = owner.OnFired;
         }
 
@@ -31,6 +37,9 @@ public partial class FlyDutchManController : MonoBehaviour
             animator.SetTrigger("Fire");
 
             OnFired?.Invoke();
+
+
+            timer += Time.deltaTime;
         }
 
         //코루틴으로 쏴야함
@@ -41,9 +50,14 @@ public partial class FlyDutchManController : MonoBehaviour
             rigidbody.velocity = dir * speed;
             renderer.flipX = rigidbody.velocity.x > 0 ? true : false;
 
-            if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f) // fire 애니메이션이 끝났으면
+            timer += Time.deltaTime;
+
+            if (delay < timer)
             {
-                //OnFired?.Invoke();
+                OnFired?.Invoke();
+                animator.SetTrigger("Fire");
+
+                timer = 0;
             }
         }
         public override void Transition()
@@ -54,9 +68,10 @@ public partial class FlyDutchManController : MonoBehaviour
             }
         }
 
+     
         public override void Exit()
         {
-
         }
+       
     }
 }

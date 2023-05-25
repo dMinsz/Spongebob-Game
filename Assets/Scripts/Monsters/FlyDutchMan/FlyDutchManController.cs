@@ -38,7 +38,8 @@ public partial class FlyDutchManController : MonoBehaviour , IMonster
     private float FireRange;
     [SerializeField]
     private float StopRange;
-
+    [SerializeField] 
+    private float fireDelay;
 
 
     [Header("Events")]

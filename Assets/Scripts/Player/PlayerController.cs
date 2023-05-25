@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform ShootPos;
 
     [Header("Debug Test Attack and Hit")]
+    [SerializeField] private bool DebugMode;
     [SerializeField] private TextMeshPro HPText;
 
     [Header("Ground Layer Masking")]
@@ -253,6 +254,12 @@ public class PlayerController : MonoBehaviour
 
     public void Hit(int Damage)
     {
+        if (DebugMode)
+        {
+            //Debug ¹«Àû
+            return;
+        }
+
         Hp -= Damage;
 
         if (Hp <= 0)
@@ -268,6 +275,7 @@ public class PlayerController : MonoBehaviour
         }
         mainRoutine = StartCoroutine(HitRoutine());
     }
+    
 
     private IEnumerator HitRoutine()
     {

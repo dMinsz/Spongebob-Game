@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2952488087412405142}
   - component: {fileID: 2952488087412405141}
   - component: {fileID: 2952488087412405140}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2952488087412405137}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.0755004, y: 2.4429584, z: -0.052320838}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -133,7 +133,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 3
+  m_Constraints: 7
 --- !u!114 &2952488087412405140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,6 +147,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   armcollider: {fileID: 0}
+  rb: {fileID: 0}
   returnPosition: {x: 0, y: 0, z: 0}
+  random: 0
   player: {fileID: 0}
   moveSpeed: 10
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64

@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24048905}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: SheepPlat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87846292}
   - component: {fileID: 87846291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 193645627}
   - component: {fileID: 193645626}
   - component: {fileID: 193645628}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 497087329}
   - component: {fileID: 497087330}
   - component: {fileID: 497087331}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,7 +930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 564481279}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Boundarys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -965,7 +965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684116986}
   - component: {fileID: 684116987}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 900935475}
   - component: {fileID: 900935476}
   - component: {fileID: 900935477}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sail0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 1002067063}
   - component: {fileID: 1002067064}
   - component: {fileID: 1002067065}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1072821627}
   - component: {fileID: 1072821628}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148668563}
   - component: {fileID: 1148668564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightBoundary
   m_TagString: Boundary
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1198116984}
   - component: {fileID: 1198116985}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1324038501}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,7 +1664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525729511}
   - component: {fileID: 1525729512}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftBoundary
   m_TagString: Boundary
   m_Icon: {fileID: 0}
@@ -1784,7 +1784,7 @@ GameObject:
   - component: {fileID: 1689050169}
   - component: {fileID: 1689050172}
   - component: {fileID: 1689050171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FlyDutchMan
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -2019,7 +2019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746797978}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2056,7 +2056,7 @@ GameObject:
   - component: {fileID: 1800852674}
   - component: {fileID: 1800852675}
   - component: {fileID: 1800852676}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Sail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2138,7 +2138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956461407}
   - component: {fileID: 1956461408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TopBoundary
   m_TagString: Boundary
   m_Icon: {fileID: 0}

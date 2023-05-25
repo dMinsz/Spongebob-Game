@@ -430,7 +430,7 @@ MonoBehaviour:
   HPText: {fileID: 244968186}
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 256
   OnMoved:
     m_PersistentCalls:
       m_Calls: []

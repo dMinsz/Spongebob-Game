@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
     private new Rigidbody2D rigidbody;
     private Animator animator;
     private new SpriteRenderer renderer;
+    private new Collider2D collider;
 
     //target
     private GameObject Target;
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+        collider = GetComponent<Collider2D>();
 
         Target = GameObject.FindGameObjectWithTag("Boss");
     }
@@ -76,7 +78,10 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GroundCheck();
+        if (!isDied)
+        {
+            GroundCheck();
+        }
     }
 
     private void OnDrawGizmos()
@@ -106,6 +111,8 @@ public class PlayerController : MonoBehaviour
         if (!isGround)
             return;
         if (isHited)
+            return;
+        if (isDied)
             return;
 
         Jump();
@@ -231,7 +238,12 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+       
         animator.SetBool("IsDied", true);
+        rigidbody.gravityScale = 0.0f;
+        rigidbody.velocity = Vector2.down * 3;
+        
+        collider.enabled = false;
 
         OnDied?.Invoke();
 

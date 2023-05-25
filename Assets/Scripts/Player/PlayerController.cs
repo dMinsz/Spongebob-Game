@@ -162,9 +162,32 @@ public class PlayerController : MonoBehaviour
         while (true)
         {
             if (inputDir.x < 0 && rigidbody.velocity.x > -maxSpeed) // 왼쪽으로 이동하는데 , 속력이 최고 속력이 아닐때
+            {
+
                 rigidbody.AddForce(Vector2.right * inputDir.x * movePower);
+
+                if (rigidbody.velocity.x > -maxSpeed) // 이동시 최대 속력을 넘어가면
+                {
+                    Vector2 temp = new Vector2() { x = rigidbody.velocity.x, y = rigidbody.velocity.y };
+                    temp.x = -maxSpeed;
+                    rigidbody.velocity = temp;
+                }
+
+            }
             else if (inputDir.x > 0 && rigidbody.velocity.x < maxSpeed)// 오른쪽으로 이동하는데 , 속력이 최고 속력이 아닐때
+            {
                 rigidbody.AddForce(Vector2.right * inputDir.x * movePower);
+
+                if (rigidbody.velocity.x < maxSpeed) // 이동시 최대 속력을 넘어가면
+                {
+                    Vector2 temp = new Vector2() { x = rigidbody.velocity.x, y = rigidbody.velocity.y };
+                    temp.x = maxSpeed;
+                    rigidbody.velocity = temp;
+                }
+
+            }
+         
+            //Debug.Log("MoveSpeed velocity:" + rigidbody.velocity.x);
 
             animator.SetFloat("MoveDir", Mathf.Abs(inputDir.x));
             if (inputDir.x > 0) 

@@ -17,13 +17,13 @@ public class PlayerController : MonoBehaviour
 
     [Header("Player Attack Settings")]
     [SerializeField] private float melleAttackRange;
-    [SerializeField] private float rangeAttackRange;
+    //[SerializeField] private float rangeAttackRange;
     [SerializeField] private Transform ShootPos;
 
     [Header("Debug Test Attack and Hit")]
-    //[SerializeField] private float rangeAttackRange;
     [SerializeField] private TextMeshPro HPText;
-    [Header("Layer Masking")]
+
+    [Header("Ground Layer Masking")]
     [SerializeField] private LayerMask groundMask;
 
 
@@ -122,9 +122,16 @@ public class PlayerController : MonoBehaviour
 
         OnMeleeAttacked?.Invoke();
         animator.SetTrigger("MeleeAttack");
+        MeleeAttack();
     }
+    private void MeleeAttack() 
+    {
+        if ((Target.transform.position - transform.position).sqrMagnitude <= melleAttackRange * melleAttackRange)
+        {
+            Target.GetComponent<IMonster>().Hit(1);
+        }
 
-   
+    }
 
     private void OnRangeAttack(InputValue value)
     {
@@ -132,9 +139,6 @@ public class PlayerController : MonoBehaviour
             return;
         if (isHited)// 맞았을때 공격못함
             return;
-
-        //공격 하는 곳 체크용
-        Debug.DrawRay(transform.position, Vector2.right * inputDir.x * rangeAttackRange, Color.red);
 
         OnRangeAttacked?.Invoke();
         animator.SetTrigger("RangeAttack");

@@ -29,7 +29,7 @@ public partial class FlyDutchManController : MonoBehaviour , IMonster
 
     [Header("Status")]
     [SerializeField]
-    private int HP = 5;
+    public int HP = 5;
     [SerializeField]
     private float moveSpeed;
     [SerializeField]

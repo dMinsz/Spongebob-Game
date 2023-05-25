@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using ArmState;
-using UnityEngine.InputSystem;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 public class Arm : MonoBehaviour
 {
-    public Collider2D armcollider;
-    public Rigidbody2D rb;
+    private Collider2D armcollider;
+    private Rigidbody2D rb;
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
     public Vector3 returnPosition;
@@ -24,7 +24,7 @@ public class Arm : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         states = new StateBaseMekaSquidWard[(int)StateArm.Size];
         states[(int)StateArm.Idle] = new IdleState(this);
-        states[(int)StateArm.Attack] = new AttackState(this);
+        states[(int)StateArm.Attack] = new AttackState(this, player);
         states[(int)StateArm.TakeDown] = new TakeDownState(this);
         states[(int)StateArm.Return] = new ReturnState(this);
     }
@@ -100,11 +100,6 @@ namespace ArmState
             }
         }
 
-        private int AttackPettern(int num)
-        {
-            return num;
-        }
-
         public override void Exit()
         {
             Debug.Log("대기끝");
@@ -115,26 +110,35 @@ namespace ArmState
     {
         private Arm arm;
 
-        private static Transform attacktransform;
+        private Transform attackPoint;
+        private Transform player;
         private float attackedtime;
 
-        public AttackState(Arm arm)
+        public AttackState(Arm arm, Transform player)
         {
             this.arm = arm;
+            this.player = player;
+        }
 
+        public AttackState DeepCopyAttackPoint()
+        {
+            AttackState newCopy = new AttackState(arm,player);
+            newCopy.player = this.arm.player;
+
+            return newCopy;
         }
 
         public override void Enter()
         {
             Debug.Log("공격진입");
-            attacktransform = arm.player.transform;
+            attackPoint = DeepCopyAttackPoint().player;
             attackedtime = 0;
         }
 
         public override void Update()
         {
             attackedtime += Time.deltaTime;
-            Vector2 dir = (attacktransform.position - arm.transform.position).normalized;
+            Vector2 dir = (attackPoint.position - arm.transform.position).normalized;
             arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
 
             if (attackedtime > 3 || arm.IsGroundExist())

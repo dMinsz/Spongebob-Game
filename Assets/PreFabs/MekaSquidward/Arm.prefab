@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2952488087412405140}
   m_Layer: 31
   m_Name: Arm
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,6 @@ MonoBehaviour:
   armcollider: {fileID: 0}
   rb: {fileID: 0}
   returnPosition: {x: 0, y: 0, z: 0}
-  random: 0
   player: {fileID: 0}
   moveSpeed: 10
   groundMask:

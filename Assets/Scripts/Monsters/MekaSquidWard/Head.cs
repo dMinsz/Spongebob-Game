@@ -2,6 +2,7 @@ using HeadState;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.Intrinsics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Head : MonoBehaviour
@@ -9,9 +10,10 @@ public class Head : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Animator animator;
     private Collider2D collider;
-    private SpriteRenderer renderer;
+    public SpriteRenderer renderer;
     private StateBaseMekaSquidWard[] states;
     private StateHead curState;
+    private Coroutine curRoutine;
 
     [SerializeField] public int hp;
 
@@ -36,6 +38,16 @@ public class Head : MonoBehaviour
     private void Update()
     {
         states[(int)curState].Update();
+    }
+
+    public void StartCoroutine(string coroutine, Coroutine curRoutine)
+    {
+        curRoutine = StartCoroutine(coroutine);
+    }
+
+    public void StopCoroutin(Coroutine coroutine)
+    {
+        StopCoroutine(coroutine);
     }
 
     public void ChangeState(StateHead state)
@@ -94,6 +106,7 @@ namespace HeadState
             {
                 head.hp = 0;
                 head.ChangeState(StateHead.Die);
+                head.renderer.color = new Color(255, 0, 0);
             }
             else
             {
@@ -101,9 +114,18 @@ namespace HeadState
             }
         }
 
+        IEnumerator HitRoutine()
+
+        {
+
+            yield return new WaitForSecondsRealtime(1f);
+
+
+        }
+
         public override void Enter()
         {
-            
+            head.StartCoroutine(HitRoutine());
         }
 
         public override void Update()

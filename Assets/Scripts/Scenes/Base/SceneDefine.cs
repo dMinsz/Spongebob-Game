@@ -10,6 +10,7 @@ public class SceneDefine
         LoadingScene, // 로딩씬
         TitleScene, // 타이틀 씬 
         GameScene, // 인게임 씬
+        ManRayScene, // ManRay 보스 씬
         EndingScene, // 게임 엔딩 씬 
     }
 }

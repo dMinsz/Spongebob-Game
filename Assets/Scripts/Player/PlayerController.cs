@@ -40,6 +40,9 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private new SpriteRenderer renderer;
 
+    //target
+    private GameObject Target;
+
     private Vector2 inputDir;
 
     private bool isGround;
@@ -53,6 +56,8 @@ public class PlayerController : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+
+        Target = GameObject.FindGameObjectWithTag("Boss");
     }
 
     private void Start()
@@ -133,6 +138,7 @@ public class PlayerController : MonoBehaviour
 
         OnRangeAttacked?.Invoke();
         animator.SetTrigger("RangeAttack");
+
     }
 
     private void Jump()

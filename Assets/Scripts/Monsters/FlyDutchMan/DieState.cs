@@ -9,8 +9,6 @@ public partial class FlyDutchManController : MonoBehaviour
     private class DieState : BaseState
     {
 
-        private UnityEvent OnDied;
-
         public DieState(FlyDutchManController owner, StateMachine<State, FlyDutchManController> stateMachine) : base(owner, stateMachine)
         {
         }
@@ -27,7 +25,6 @@ public partial class FlyDutchManController : MonoBehaviour
             animator.SetBool("IsDie", true);
             collider.enabled = false;
             
-            OnDied?.Invoke();
 
             Destroy(gameObject, 5f);
         }

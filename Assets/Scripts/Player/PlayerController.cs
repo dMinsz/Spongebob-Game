@@ -17,13 +17,14 @@ public class PlayerController : MonoBehaviour
 
     [Header("Player Attack Settings")]
     [SerializeField] private float melleAttackRange;
-    [SerializeField] private float rangeAttackRange;
+    //[SerializeField] private float rangeAttackRange;
     [SerializeField] private Transform ShootPos;
 
     [Header("Debug Test Attack and Hit")]
-    //[SerializeField] private float rangeAttackRange;
+    [SerializeField] private bool DebugMode;
     [SerializeField] private TextMeshPro HPText;
-    [Header("Layer Masking")]
+
+    [Header("Ground Layer Masking")]
     [SerializeField] private LayerMask groundMask;
 
 
@@ -39,6 +40,10 @@ public class PlayerController : MonoBehaviour
     private new Rigidbody2D rigidbody;
     private Animator animator;
     private new SpriteRenderer renderer;
+    private new Collider2D collider;
+
+    //target
+    private GameObject Target;
 
     private Vector2 inputDir;
 
@@ -53,6 +58,9 @@ public class PlayerController : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+        collider = GetComponent<Collider2D>();
+
+        Target = GameObject.FindGameObjectWithTag("Boss");
     }
 
     private void Start()
@@ -71,7 +79,10 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GroundCheck();
+        if (!isDied)
+        {
+            GroundCheck();
+        }
     }
 
     private void OnDrawGizmos()
@@ -102,6 +113,8 @@ public class PlayerController : MonoBehaviour
             return;
         if (isHited)
             return;
+        if (isDied)
+            return;
 
         Jump();
         OnJumped?.Invoke();
@@ -117,9 +130,16 @@ public class PlayerController : MonoBehaviour
 
         OnMeleeAttacked?.Invoke();
         animator.SetTrigger("MeleeAttack");
+        MeleeAttack();
     }
+    private void MeleeAttack() 
+    {
+        if ((Target.transform.position - transform.position).sqrMagnitude <= melleAttackRange * melleAttackRange)
+        {
+            Target.GetComponent<IMonster>().Hit(1);
+        }
 
-   
+    }
 
     private void OnRangeAttack(InputValue value)
     {
@@ -128,11 +148,9 @@ public class PlayerController : MonoBehaviour
         if (isHited)// 맞았을때 공격못함
             return;
 
-        //공격 하는 곳 체크용
-        Debug.DrawRay(transform.position, Vector2.right * inputDir.x * rangeAttackRange, Color.red);
-
         OnRangeAttacked?.Invoke();
         animator.SetTrigger("RangeAttack");
+
     }
 
     private void Jump()
@@ -221,7 +239,12 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+       
         animator.SetBool("IsDied", true);
+        rigidbody.gravityScale = 0.0f;
+        rigidbody.velocity = Vector2.down * 3;
+        
+        collider.enabled = false;
 
         OnDied?.Invoke();
 
@@ -231,6 +254,12 @@ public class PlayerController : MonoBehaviour
 
     public void Hit(int Damage)
     {
+        if (DebugMode)
+        {
+            //Debug 무적
+            return;
+        }
+
         Hp -= Damage;
 
         if (Hp <= 0)
@@ -246,6 +275,7 @@ public class PlayerController : MonoBehaviour
         }
         mainRoutine = StartCoroutine(HitRoutine());
     }
+    
 
     private IEnumerator HitRoutine()
     {

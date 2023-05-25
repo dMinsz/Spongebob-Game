@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boss
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -12,6 +13,8 @@ TagManager:
   - Player
   - Water
   - UI
+  - DutchMan
+  - Boundary
   - Ground
   - Background
   - 
@@ -36,8 +39,6 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - Monster
   m_SortingLayers:
   - name: BackGround
     uniqueID: 302383579

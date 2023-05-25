@@ -32,7 +32,7 @@ public partial class FlyDutchManController : MonoBehaviour
 
         public override void Transition()
         {
-
+            stateMachine.ChangeState(State.Idle);
         }
 
         public override void Exit()

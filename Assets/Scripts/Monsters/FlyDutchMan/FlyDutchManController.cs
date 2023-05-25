@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 
-public partial class FlyDutchManController : MonoBehaviour
+public partial class FlyDutchManController : MonoBehaviour , IMonster
 {
 
     //Base Components
@@ -25,11 +25,11 @@ public partial class FlyDutchManController : MonoBehaviour
     [Header("Debug")]
     [SerializeField]
     public TextMeshPro CurState;
-
+    public TextMeshPro HpText;
 
     [Header("Status")]
     [SerializeField]
-    private int HP = 5;
+    public int HP = 5;
     [SerializeField]
     private float moveSpeed;
     [SerializeField]
@@ -38,7 +38,8 @@ public partial class FlyDutchManController : MonoBehaviour
     private float FireRange;
     [SerializeField]
     private float StopRange;
-
+    [SerializeField] 
+    private float fireDelay;
 
 
     [Header("Events")]
@@ -82,6 +83,7 @@ public partial class FlyDutchManController : MonoBehaviour
         CheckDie();
         stateMachine.Update();
         CurState.text = stateMachine.GetNowState().ToString();
+        HpText.text = HP.ToString();
     }
 
     //Basic State
@@ -97,6 +99,7 @@ public partial class FlyDutchManController : MonoBehaviour
 
     public void Hit(int damage) 
     {
+
         HP -= damage;
 
         if (HP <= 0)

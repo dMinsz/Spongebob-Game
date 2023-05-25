@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MekaSquidward image_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 716
+        width: 331
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856dac1100bb06847b04199080de03e0
+      internalID: 1831652203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 716
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff336fa2409430e46a3df3ec906345f0
+      internalID: 18587584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 589
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0386988f3649ecc418a9f68d9e582ba8
+      internalID: -1967145065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 589
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762352d5989a0774a840bbc3ab19b626
+      internalID: 1654269114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 589
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c850b328804e7334d9d2b71793437e70
+      internalID: 1523204476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_5
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 589
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0eb92b47993c9428462ac54a1c02e7
+      internalID: -1008408354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 462
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe423f84f9ddd4c9b846d01e58a725
+      internalID: 2000790504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 550
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b890b5e16a38e41918acd64df295a8
+      internalID: 823201271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 550
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689ca314ae1efe479785aaf7eb30cc1
+      internalID: 1189972254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 537
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62ff2459b4793c409ffe546f6effb7e
+      internalID: -145172692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_10
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 539
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687163a2e6007d84da62e1853a916046
+      internalID: 1758883594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 539
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b7823f94dd76e409199c7626111836
+      internalID: -251824292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 539
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0979c7561559954783839ffa06ed5db
+      internalID: 1168040779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 539
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e324300830447aa488a2b5b98ee696cd
+      internalID: 1069020349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 539
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102747c263c83a046884b2e592432bcc
+      internalID: 203664268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_15
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 539
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b8a71fccce0d64aa1f9363ce99a6ee
+      internalID: -171116825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 491
+        width: 233
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522e18d3e756a0c40a98c1f0d3b668ec
+      internalID: -1271587926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_17
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9652a802ea637ea4d9c149cbc8e0a3b6
+      internalID: -836762314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c70137cfc946ed42becf538afa6779a
+      internalID: -116928881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfd2dd84562104488d145b98e7c4127
+      internalID: 1450913612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_20
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc98cf66df3f746912f793e9b63d13
+      internalID: -554701796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_21
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc5e49fa1bd3934f9e974016f02410f
+      internalID: -1778865605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055b7f86547d0f541ae65bcd8a877265
+      internalID: 1036104728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 406
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66d9c6bfd0cfb42b6a90f44f4647a8
+      internalID: 1457838722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 393
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94c77a64e9a509439b10830e25c175a
+      internalID: -1516212357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 406
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a02ee4bbbae546b0abb7e37d65a2b
+      internalID: -1502148760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 406
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07f28645a0ae8a42b1c0ce8bd2fa6bd
+      internalID: 788016311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_27
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 406
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c1588b242977d4f877a52e91336f43
+      internalID: 1311082250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 406
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7d8875c68ed0c48aab754e90725408
+      internalID: 1945842676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 406
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3328ae1d4f2c14bb25002ee5dc2d60
+      internalID: 646978998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 406
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f74c0e923ce04b904cb215d4252b7
+      internalID: -26462864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 406
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cc9e9754aff7241aa53004dabc2588
+      internalID: -741938037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 406
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f40d75a2167f843a1a882f1fee62ad
+      internalID: -1896685550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 323
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0d00904ad6dbc43941e39dbabe9a4c
+      internalID: 1311005114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 323
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b483e118fef13249893eb05c2208358
+      internalID: -1803157600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 323
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264db84449ef16145b30c0fc9b2fa77d
+      internalID: 307424510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 323
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a926c47b71fbce4382dac16c06bd8d0
+      internalID: 605618321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 323
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c4706aacadaa43ac4db68c7544ef2
+      internalID: -1479537069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_38
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 323
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c9dd2c75235af4096a3ccb3e287bee
+      internalID: -799024277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 323
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3442988fc6e0b214986ef60168646067
+      internalID: -1721673272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 323
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326b411440d2c2b44a37a7d2e1efac08
+      internalID: 118260985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 311
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba0a8a18a9990341967ef07fe87dd23
+      internalID: 1153890731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_42
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 323
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc1094a6181f124996d0ded20d0b4e3
+      internalID: 894975034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 10
+        width: 280
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4792a379705474a4d8423d09a042150c
+      internalID: 1284455176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_44
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 242
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d407d0271de844b3bcef43013d169
+      internalID: -216878769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_45
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 240
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84390b6e6919f6f49906cbf911c9a777
+      internalID: -6903006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MekaSquidward image_46
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 12
+        width: 280
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8a6436863f57642b85467f3da7f386
+      internalID: 302174062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +1137,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MekaSquidward image_0: 1831652203
+      MekaSquidward image_1: 18587584
+      MekaSquidward image_10: 1758883594
+      MekaSquidward image_11: -251824292
+      MekaSquidward image_12: 1168040779
+      MekaSquidward image_13: 1069020349
+      MekaSquidward image_14: 203664268
+      MekaSquidward image_15: -171116825
+      MekaSquidward image_16: -1271587926
+      MekaSquidward image_17: -836762314
+      MekaSquidward image_18: -116928881
+      MekaSquidward image_19: 1450913612
+      MekaSquidward image_2: -1967145065
+      MekaSquidward image_20: -554701796
+      MekaSquidward image_21: -1778865605
+      MekaSquidward image_22: 1036104728
+      MekaSquidward image_23: 1457838722
+      MekaSquidward image_24: -1516212357
+      MekaSquidward image_25: -1502148760
+      MekaSquidward image_26: 788016311
+      MekaSquidward image_27: 1311082250
+      MekaSquidward image_28: 1945842676
+      MekaSquidward image_29: 646978998
+      MekaSquidward image_3: 1654269114
+      MekaSquidward image_30: -26462864
+      MekaSquidward image_31: -741938037
+      MekaSquidward image_32: -1896685550
+      MekaSquidward image_33: 1311005114
+      MekaSquidward image_34: -1803157600
+      MekaSquidward image_35: 307424510
+      MekaSquidward image_36: 605618321
+      MekaSquidward image_37: -1479537069
+      MekaSquidward image_38: -799024277
+      MekaSquidward image_39: -1721673272
+      MekaSquidward image_4: 1523204476
+      MekaSquidward image_40: 118260985
+      MekaSquidward image_41: 1153890731
+      MekaSquidward image_42: 894975034
+      MekaSquidward image_43: 1284455176
+      MekaSquidward image_44: -216878769
+      MekaSquidward image_45: -6903006
+      MekaSquidward image_46: 302174062
+      MekaSquidward image_5: -1008408354
+      MekaSquidward image_6: 2000790504
+      MekaSquidward image_7: 823201271
+      MekaSquidward image_8: 1189972254
+      MekaSquidward image_9: -145172692
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

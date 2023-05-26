@@ -134,6 +134,9 @@ public class PlayerController : MonoBehaviour
     }
     private void MeleeAttack() 
     {
+        if (Target == null)
+            return;
+
         if ((Target.transform.position - transform.position).sqrMagnitude <= melleAttackRange * melleAttackRange)
         {
             Target.GetComponent<IMonster>().Hit(1);

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 10617986}
   - component: {fileID: 10617985}
   - component: {fileID: 10617984}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2274,6 +2274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05363497126852b46b90a356ccf6026b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextScene: 4
   OnPortal:
     m_PersistentCalls:
       m_Calls: []

@@ -6,6 +6,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(BoxCollider2D))]
 public class BasicPortal : MonoBehaviour
 {
+    public SceneDefine.Scene NextScene;
 
     public UnityEvent OnPortal;
 
@@ -16,12 +17,23 @@ public class BasicPortal : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
     }
 
-    //나중에 바꾸도록하자.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.Scene.LoadScene(SceneDefine.Scene.FlyDutchManScene);
+            OnPortal?.Invoke();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                GameManager.Scene.LoadScene(NextScene);
+            }
+
         }
     }
 

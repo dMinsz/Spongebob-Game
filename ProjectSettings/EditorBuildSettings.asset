@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MekaSquidwardBossScene.unity
     guid: 0dc1007abcfc93646825a67ae57c2055
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: d574773228b72b143a70875975359dca
   m_configObjects: {}

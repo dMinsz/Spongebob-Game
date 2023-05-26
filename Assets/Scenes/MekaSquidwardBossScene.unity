@@ -620,8 +620,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ec7ffb7b9c0ddd45be610f215f67423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   renderer: {fileID: 0}
-  hp: 5
+  OnHited:
+    m_PersistentCalls:
+      m_Calls: []
+  hp: 0
 --- !u!58 &1695121001
 CircleCollider2D:
   m_ObjectHideFlags: 0

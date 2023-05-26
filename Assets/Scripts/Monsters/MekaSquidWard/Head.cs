@@ -4,16 +4,18 @@ using System.Collections.Generic;
 using Unity.Burst.Intrinsics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Head : MonoBehaviour , IMonster
 {
     private Rigidbody2D rigidbody;
-    private Animator animator;
+    public Animator animator;
     private Collider2D collider;
     public SpriteRenderer renderer;
     private StateBaseMekaSquidWard[] states;
     private StateHead curState;
     private Coroutine curRoutine;
+    public UnityEvent OnHited;
 
     [SerializeField] public int hp;
 
@@ -61,6 +63,16 @@ public class Head : MonoBehaviour , IMonster
     public void Hit(int damage)
     {
         hp -= damage;
+
+        if (hp <= 0)
+        {
+            hp = 0;
+            ChangeState(StateHead.Die);
+        }
+        else
+        {
+            ChangeState(StateHead.Hit);
+        }
     }
 }
 
@@ -97,6 +109,7 @@ namespace HeadState
     public class HitState : StateBaseMekaSquidWard
     {
         private Head head;
+        private float hitAnimationTime;
 
         public HitState(Head head)
         {
@@ -105,34 +118,38 @@ namespace HeadState
 
         public void Hit(int damage)
         {
-            head.hp -= damage;
-
-            if (head.hp <= 0)
-            {
-                head.hp = 0;
-                head.ChangeState(StateHead.Die);
-                head.animator.
-                head.renderer.color = new Color(255, 0, 0);
-            }
-            else
-            {
-                head.ChangeState(StateHead.Hit);
-            }
+            
         }
 
         IEnumerator HitRoutine()
         {
-            yield return new WaitForSecondsRealtime(1f);
+            while (head.animator.GetBool("Hited"))
+            {
+                yield return new WaitForSecondsRealtime(1f);
+            }
         }
 
         public override void Enter()
         {
+            head.animator.SetBool("Hited", true);
+            hitAnimationTime = 0;
             head.StartCoroutine(HitRoutine());
         }
 
         public override void Update()
         {
-
+            hitAnimationTime += Time.deltaTime;
+            if (hitAnimationTime < 0.25)
+                head.renderer.color = new Color(255, 0, 0);
+            else if ((hitAnimationTime < 0.5))
+                head.renderer.color = new Color(255, 255, 255);
+            else if (hitAnimationTime < 0.75)
+                head.renderer.color = new Color(255, 0, 0);
+            else if (hitAnimationTime < 1)
+            {
+                head.renderer.color = new Color(255, 255, 255);
+                head.ChangeState(StateHead.Idle);
+            }
         }
 
         public override void Exit()
@@ -152,7 +169,7 @@ namespace HeadState
 
         public override void Enter()
         {
-            
+            head.animator.SetTrigger("Died");
         }
 
         public override void Update()

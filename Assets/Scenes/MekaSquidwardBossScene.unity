@@ -822,6 +822,12 @@ MonoBehaviour:
   renderer: {fileID: 0}
   hp: 5
   gameObject: {fileID: 1858331305}
+  OnHited:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!58 &1695121001
 CircleCollider2D:
   m_ObjectHideFlags: 0

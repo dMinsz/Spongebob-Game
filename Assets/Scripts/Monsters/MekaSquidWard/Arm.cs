@@ -6,7 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 public class Arm : MonoBehaviour
 {
-    // private Collider2D armcollider;
+    private Collider2D armcollider;
     // private Rigidbody2D rb;
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
@@ -20,7 +20,7 @@ public class Arm : MonoBehaviour
 
     private void Awake()
     {
-        // armcollider = GetComponent<Collider2D>();
+        armcollider = GetComponent<Collider2D>();
         // rb = GetComponent<Rigidbody2D>();
         playerPoint = GameObject.FindGameObjectWithTag("Player").transform;
 

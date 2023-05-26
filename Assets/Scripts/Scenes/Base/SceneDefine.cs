@@ -9,7 +9,8 @@ public class SceneDefine
         Unknown, // 디폴트 씬
         LoadingScene, // 로딩씬
         TitleScene, // 타이틀 씬 
-        GameScene, // 인게임 씬
+        RobbyScene, // 로비씬
+        FlyDutchManScene, // 보스 1
         ManRayScene, // ManRay 보스 씬
         EndingScene, // 게임 엔딩 씬 
     }

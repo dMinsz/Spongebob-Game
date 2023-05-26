@@ -17,7 +17,7 @@ public class TitleScene : BaseScene
     {
         if (Input.anyKey)
         {
-            GameManager.Scene.LoadScene(SceneDefine.Scene.GameScene);
+            GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
         }
     }
 

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameScene : BaseScene
+public class RobbyScene : BaseScene
 {
     protected override void Init()
     {
         base.Init();
-        SceneType = SceneDefine.Scene.GameScene;
+        SceneType = SceneDefine.Scene.RobbyScene;
     }
 
 

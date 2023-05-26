@@ -19,7 +19,4 @@ public class ProjectileController: MonoBehaviour
         Instantiate(projectilePrefab, ShootPos.position, ShootPos.rotation);
     }
     
-
-
- 
 }

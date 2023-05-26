@@ -8,6 +8,8 @@ public class StateMachine<TState, TOwner> where TOwner : MonoBehaviour
     private Dictionary<TState, StateBase<TState, TOwner>> states;
     private StateBase<TState, TOwner> curState;
 
+    //ForDebug
+    private TState NowState;
     public StateMachine(TOwner owner)
     {
         this.owner = owner;
@@ -28,6 +30,8 @@ public class StateMachine<TState, TOwner> where TOwner : MonoBehaviour
 
         curState = states[startState];
         curState.Enter();
+
+        NowState = startState;
     }
 
     public void Update()
@@ -41,5 +45,13 @@ public class StateMachine<TState, TOwner> where TOwner : MonoBehaviour
         curState.Exit();
         curState = states[newState];
         curState.Enter();
+
+        NowState = newState;
+    }
+
+    //forDebug
+    public TState GetNowState()
+    {
+        return NowState;
     }
 }

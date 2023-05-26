@@ -4,20 +4,22 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Boss
+  - Boundary
   - ManRay
   - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+  - DutchMan
+  - Boundary
   - Ground
   - Background
   - Wall
-  - 
-  - 
   - 
   - 
   - 

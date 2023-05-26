@@ -18,7 +18,7 @@ public class Arm : MonoBehaviour
     [SerializeField] public float moveSpeed;
     [SerializeField] public LayerMask groundMask;
     // [SerializeField] public Collider2D staybox;
-    [SerializeField] public UnityEvent OnAttack;
+    [SerializeField] public UnityEvent OnTakedown;
 
     private void Awake()
     {
@@ -184,7 +184,7 @@ namespace ArmState
 
             if (arm.IsGroundExist())
             {
-                arm.OnAttack?.Invoke();
+                arm.OnTakedown?.Invoke();
                 arm.ChangeState(StateArm.Return);
             }
         }

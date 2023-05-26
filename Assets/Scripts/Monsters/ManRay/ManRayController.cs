@@ -97,10 +97,10 @@ public class ManRayController : MonoBehaviour , IMonster
         {
             Hp = 0;
 
-            Destroy(gameObject, 3f);
+            Destroy(gameObject, 6f);
             
             animator.SetBool("Died", true);
-            animator.speed = 0.0f;
+            
 
             //rb.velocity = Vector2.zero;
             //rb.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -109,6 +109,8 @@ public class ManRayController : MonoBehaviour , IMonster
             ChangeState(State.Idle);
 
             collider.enabled = false;
+
+            
 
         }
         else

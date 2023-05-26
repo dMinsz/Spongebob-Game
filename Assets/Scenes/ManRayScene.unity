@@ -271,7 +271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383841227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.2, y: -7.73, z: -10}
+  m_LocalPosition: {x: -22.37, y: -7.93, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2309,11 +2309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1156372939768902040, guid: 6fe7fda3ba49edb47b477dfd0b0529c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.2
+      value: -22.37
       objectReference: {fileID: 0}
     - target: {fileID: 1156372939768902040, guid: 6fe7fda3ba49edb47b477dfd0b0529c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.73
+      value: -7.93
       objectReference: {fileID: 0}
     - target: {fileID: 1156372939768902040, guid: 6fe7fda3ba49edb47b477dfd0b0529c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2469,7 +2469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578482349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.1990256, y: -1.555923, z: -10}
+  m_LocalPosition: {x: -9.734412, y: -1.5585876, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2660,11 +2660,14 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
+  spriteRenderer: {fileID: 0}
   rb: {fileID: 0}
   detectRange: 30
   moveSpeed: 5
   AttackRange: 20
   lastAttackTime: 0
+  jumpPower: 15
+  jumpInterval: 5
   patrolPoints:
   - {fileID: 1190618912}
   - {fileID: 754427324}

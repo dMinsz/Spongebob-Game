@@ -13,7 +13,7 @@ public class ManRayController : MonoBehaviour , IMonster
 
     [SerializeField] public Transform groundCheckPoint;
     [SerializeField] public LayerMask groundMask;
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
     public Rigidbody2D rb;
     private TMP_Text text;
@@ -21,6 +21,8 @@ public class ManRayController : MonoBehaviour , IMonster
     public float moveSpeed;
     public float AttackRange;
     public float lastAttackTime;
+    public float jumpPower;
+    public float jumpInterval;
     public Transform[] patrolPoints;
     public Animator animator;
 
@@ -50,12 +52,14 @@ public class ManRayController : MonoBehaviour , IMonster
         curState = State.Idle;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         returnPosition = transform.position;
+        InvokeRepeating("Jump", jumpInterval, jumpInterval);
     }
 
 
 
     private void Update()
     {
+        
         states[(int)curState].Update();
         renderdir();
     }
@@ -75,6 +79,11 @@ public class ManRayController : MonoBehaviour , IMonster
         {
             spriteRenderer.flipX = false;
         }
+    }
+
+    public void Jump()
+    {
+        rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
     }
     public void Hit(int damage)
     {
@@ -216,22 +225,26 @@ namespace manRayState
             this.manRay = manRay;
         }
 
-        
-
         public override void Update()
         {
-            
-            manRay.animator.SetTrigger("Attack");
-            
-            OnFired?.Invoke();
+            if (Vector2.Distance(manRay.player.position, manRay.transform.position) <= manRay.AttackRange)
+            {
+                Debug.Log("공격");
+                manRay.animator.SetTrigger("Attack");
+                ExecuteAttack(); 
+            }
 
-            manRay.lastAttackTime += Time.deltaTime;
-            if()
-
-            else if (Vector2.Distance(manRay.player.position, manRay.transform.position) > manRay.AttackRange)
+            if (Vector2.Distance(manRay.player.position, manRay.transform.position) > manRay.AttackRange)
             {
                 manRay.ChangeState(State.Trace);
             }
+        }
+
+        private void ExecuteAttack()
+        {
+            
+            Debug.Log("어택");
+            
         }
     }
 
@@ -251,6 +264,16 @@ namespace manRayState
             Vector2 targetPosition = manRay.patrolPoints[manRay.patrolIndex].position;
             Vector2 currentPosition = manRay.transform.position;
             Vector2 direction = (targetPosition - currentPosition).normalized;
+
+            if (direction.x > 0)
+            {
+                manRay.spriteRenderer.flipX = false;
+            }
+            else if (direction.x < 0)
+            {
+                manRay.spriteRenderer.flipX = true;
+            }
+            direction = -direction;
 
             manRay.transform.Translate(direction * manRay.moveSpeed * Time.deltaTime);
             manRay.animator.SetBool("Move", true);

@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2952488087412405142}
   - component: {fileID: 2952488087412405141}
   - component: {fileID: 2952488087412405140}
-  m_Layer: 31
-  m_Name: Arm
-  m_TagString: Boss
+  m_Layer: 0
+  m_Name: RightArm
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,12 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1896d179c19b3a4293d22bb192ca722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armcollider: {fileID: 0}
-  rb: {fileID: 0}
   returnPosition: {x: 0, y: 0, z: 0}
-  random: 0
+  playerPoint: {fileID: 0}
   player: {fileID: 0}
   moveSpeed: 10
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 256

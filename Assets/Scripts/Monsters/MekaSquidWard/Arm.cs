@@ -11,7 +11,8 @@ public class Arm : MonoBehaviour
     private StateBaseMekaSquidWard[] states;
     private StateArm curState;
     public Vector3 returnPosition;
-    
+
+    public Transform playerPoint;
     [SerializeField] public GameObject player;
     [SerializeField] public float moveSpeed;
     [SerializeField] public LayerMask groundMask;
@@ -21,11 +22,14 @@ public class Arm : MonoBehaviour
     {
         // armcollider = GetComponent<Collider2D>();
         // rb = GetComponent<Rigidbody2D>();
+        playerPoint = GameObject.FindGameObjectWithTag("Player").transform;
+
         states = new StateBaseMekaSquidWard[(int)StateArm.Size];
         states[(int)StateArm.Idle] = new IdleState(this);
-        states[(int)StateArm.Attack] = new AttackState(this, player);
+        states[(int)StateArm.Attack] = new AttackState(this);
         states[(int)StateArm.TakeDown] = new TakeDownState(this);
         states[(int)StateArm.Return] = new ReturnState(this);
+        states[(int)StateArm.Die] = new DieState(this);
     }
 
     private void Start()
@@ -43,21 +47,6 @@ public class Arm : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == player.tag)
-        {
-            curState = StateArm.Return;
-        }
-    }
-
-    public bool IsGroundExist()
-    {
-        Debug.DrawRay(transform.position, Vector2.down, Color.red);
-        return Physics2D.Raycast(transform.position, Vector2.down, 0.8f, groundMask);
-    }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
         if (collision.gameObject.tag == "Player")
         {
             PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
@@ -67,6 +56,17 @@ public class Arm : MonoBehaviour
 
             playerController.Hit(1);
         }
+
+        if (collision.tag == player.tag)
+        {
+            curState = StateArm.Return;
+        }
+    }
+
+    public bool IsGroundExist()
+    {
+        Debug.DrawRay(transform.position, Vector2.down, Color.red);
+        return Physics2D.Raycast(transform.position, Vector2.down, 0.8f, groundMask);
     }
 
     public void ChangeState(StateArm state)
@@ -80,7 +80,7 @@ public class Arm : MonoBehaviour
 
 namespace ArmState
 {
-    public enum StateArm { Idle, Attack, TakeDown, Return, Size }
+    public enum StateArm { Idle, Attack, TakeDown, Return, Die, Size }
 
     public class IdleState : StateBaseMekaSquidWard
     {
@@ -124,19 +124,17 @@ namespace ArmState
         private Arm arm;
 
         private Transform attackPoint;
-        private GameObject player;
         private float attackedtime;
 
-        public AttackState(Arm arm, GameObject player)
+        public AttackState(Arm arm)
         {
             this.arm = arm;
-            this.player = player;
         }
 
         public AttackState DeepCopyAttackPoint()
         {
-            AttackState newCopy = new AttackState(arm,player);
-            newCopy.player = this.arm.player;
+            AttackState newCopy = new AttackState(arm);
+            newCopy.attackPoint = this.arm.playerPoint;
 
             return newCopy;
         }
@@ -144,7 +142,7 @@ namespace ArmState
         public override void Enter()
         {
             Debug.Log("공격진입");
-            attackPoint = DeepCopyAttackPoint().player.transform;
+            attackPoint = DeepCopyAttackPoint().attackPoint.transform;
             attackedtime = 0;
         }
 
@@ -225,6 +223,31 @@ namespace ArmState
         public override void Exit()
         {
             Debug.Log("리턴끝");
+        }
+    }
+
+    public class DieState : StateBaseMekaSquidWard
+    {
+        private Arm arm;
+
+        public DieState(Arm arm)
+        {
+            this.arm = arm;
+        }
+
+        public override void Enter()
+        {
+            
+        }
+
+        public override void Update()
+        {
+            
+        }
+
+        public override void Exit()
+        {
+            
         }
     }
 }

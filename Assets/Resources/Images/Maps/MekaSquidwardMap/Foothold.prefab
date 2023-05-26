@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7887333634269838108}
   - component: {fileID: 7887333634269838110}
   - component: {fileID: 7887333634269838111}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,9 +89,9 @@ GameObject:
   - component: {fileID: 7887333635117015550}
   - component: {fileID: 7887333635117015522}
   - component: {fileID: 7887333635117015523}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Foothold
-  m_TagString: Untagged
+  m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7887333635117015551}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

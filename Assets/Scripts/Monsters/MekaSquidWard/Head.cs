@@ -15,9 +15,10 @@ public class Head : MonoBehaviour , IMonster
     private StateBaseMekaSquidWard[] states;
     private StateHead curState;
     private Coroutine curRoutine;
-    public UnityEvent OnHited;
+    // public UnityEvent OnDied;
 
     [SerializeField] public int hp;
+    [SerializeField] public GameObject gameObject;
 
     private void Awake()
     {
@@ -40,7 +41,6 @@ public class Head : MonoBehaviour , IMonster
     private void Update()
     {
         states[(int)curState].Update();
-        Debug.Log(hp);
     }
 
     public void StartCoroutine(string coroutine, Coroutine curRoutine)
@@ -74,6 +74,13 @@ public class Head : MonoBehaviour , IMonster
         {
             ChangeState(StateHead.Hit);
         }
+    }
+
+    public void BossDestroy()
+    {
+        Debug.Log("삭제시작");
+        Destroy(gameObject,5f);
+        // Invoke("",5f);
     }
 }
 
@@ -155,6 +162,7 @@ namespace HeadState
 
         public override void Exit()
         {
+            head.animator.SetBool("Hited", false);
             head.StopCoroutin(HitRoutine());
         }
     }
@@ -170,13 +178,17 @@ namespace HeadState
 
         public override void Enter()
         {
+            Debug.Log("Die 진입");
             head.animator.SetTrigger("Died");
+            head.renderer.color = new Color(255, 0, 0);
+            head.BossDestroy();
         }
 
         public override void Update()
         {
 
         }
+
         public override void Exit()
         {
             

@@ -57,17 +57,27 @@ public class ManRayController : MonoBehaviour
     private void Update()
     {
         states[(int)curState].Update();
-        
+        renderdir();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            //transform.Rotate(Vector3.up, 180);
+            ChangeState(State.Return);
         }
     }
-
+    private void renderdir()
+    {
+        if(player.transform.position.x > transform.position.x)
+        {
+            spriteRenderer.flipX = true;
+        }
+        if (player.transform.position.x < transform.position.x)
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
     
 
     public void ChangeState(State state)
@@ -234,7 +244,7 @@ namespace manRayState
 
             Vector2 nextPosition = currentPosition + direction * manRay.moveSpeed * Time.deltaTime;
             // wallLayer 설정하기 ManRay에서
-            RaycastHit2D hit = Physics2D.Linecast(currentPosition, nextPosition, manRay.wallLayer);
+            //RaycastHit2D hit = Physics2D.Linecast(currentPosition, nextPosition, manRay.wallLayer);
 
 
             float distanceToTarget = Vector2.Distance(currentPosition, targetPosition);

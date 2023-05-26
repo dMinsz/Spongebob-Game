@@ -172,6 +172,7 @@ namespace HeadState
     public class DieState : StateBaseMekaSquidWard
     {
         private Head head;
+        private float timer = 0.0f;
 
         public DieState(Head head)
         {
@@ -189,7 +190,12 @@ namespace HeadState
 
         public override void Update()
         {
+            timer += Time.deltaTime;
 
+            if (timer > 2.0f)
+            {
+                GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
+            }
         }
 
         public override void Exit()

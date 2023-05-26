@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public partial class FlyDutchManController : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public partial class FlyDutchManController : MonoBehaviour
         private float range;
         private float attackRange;
         private float stopRange;
+
+        private UnityEvent OnMove;
+
         public TraceState(FlyDutchManController owner, StateMachine<State, FlyDutchManController> stateMachine) : base(owner, stateMachine)
         {
         }
@@ -22,12 +26,14 @@ public partial class FlyDutchManController : MonoBehaviour
             range = owner.traceRange;
             attackRange = owner.FireRange;
             stopRange = owner.StopRange;
+            OnMove = owner.OnTraced;
         }
 
         public override void Enter()
         {
             animator.SetBool("IsTrace", true);
             //rigidbody.velocity = Vector3.zero;
+            OnMove?.Invoke();
         }
 
         public override void Update()

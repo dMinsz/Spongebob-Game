@@ -43,6 +43,8 @@ public class ManRayController : MonoBehaviour , IMonster
     public UnityEvent OnHited;
     public UnityEvent OnDied;
 
+    private float timer = 0.0f;
+
     private void Awake()
     {
         collider =GetComponent<Collider2D>();
@@ -72,6 +74,18 @@ public class ManRayController : MonoBehaviour , IMonster
     {
         states[(int)curState].Update();
         renderdir();
+
+        
+
+        if (Hp <= 0 )
+        {
+            timer += Time.deltaTime;
+            if (timer > 3.0f)
+            {
+                GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
+            }
+        }
+
     }
 
     
@@ -115,7 +129,6 @@ public class ManRayController : MonoBehaviour , IMonster
 
             collider.enabled = false;
             OnDied?.Invoke();
-            
 
         }
         else

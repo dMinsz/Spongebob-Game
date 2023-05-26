@@ -307,7 +307,7 @@ MonoBehaviour:
     m_Bits: 0
   spriteRenderer: {fileID: 0}
   rb: {fileID: 0}
-  Hp: 10
+  Hp: 50
   detectRange: 10
   moveSpeed: 5
   AttackRange: 5

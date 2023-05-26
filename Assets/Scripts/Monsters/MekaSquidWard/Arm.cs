@@ -131,8 +131,6 @@ namespace ArmState
             this.arm = arm;
         }
 
-     
-
         public override void Enter()
         {
             Debug.Log("공격진입");

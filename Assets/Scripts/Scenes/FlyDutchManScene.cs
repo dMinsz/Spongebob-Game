@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,9 +10,16 @@ public class FlyDutchManScene : BaseScene
     public Image BossBar;
     [SerializeField]
     public Image PlayerBar;
-   
+
+    [SerializeField]
+    public CinemachineVirtualCamera vcam;
+
+
     private FlyDutchManController dutchMan;
     private PlayerController player;
+
+
+    private bool camCheck;
 
     private float BossHPMax;
     private float BossNowHP;
@@ -22,6 +30,7 @@ public class FlyDutchManScene : BaseScene
     private float timer = 0.0f;
     private void Awake()
     {
+        camCheck = false;
         
         BossBar.fillAmount = 1.0f;
         PlayerBar.fillAmount = 1.0f;
@@ -35,6 +44,12 @@ public class FlyDutchManScene : BaseScene
 
     private void Update()
     {
+        if (!camCheck)
+        {
+            vcam.Priority = 1;
+            camCheck = true;
+        }
+
         BossNowHP = dutchMan.HP;
         PlayerNowHP = player.Hp;
 

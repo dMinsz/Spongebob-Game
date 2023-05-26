@@ -843,9 +843,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989041640}
-  m_Layer: 0
+  - component: {fileID: 989041641}
+  m_Layer: 11
   m_Name: RightIceTurretPoint (2)
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -857,14 +858,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989041639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.34, y: -5.66, z: -0.12391278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.46, y: -5.64, z: -0.12391278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989041641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989041639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db058bfc4608004ba798a0333e42edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iceShotPrefab: {fileID: 5483828026309364574, guid: ef70f89d88421f444ba0abd1013fd5f8, type: 3}
+  iceShotPoint: {fileID: 989041640}
+  repeatTime: 7
 --- !u!1 &1021934445
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,9 +890,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1021934446}
-  m_Layer: 0
+  - component: {fileID: 1021934447}
+  m_Layer: 11
   m_Name: RightIceTurretPoint (1)
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -888,14 +905,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021934445}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.4, y: -1.62, z: -0.12391278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.519995, y: -1.6000001, z: -0.12391278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1021934447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021934445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db058bfc4608004ba798a0333e42edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iceShotPrefab: {fileID: 5483828026309364574, guid: ef70f89d88421f444ba0abd1013fd5f8, type: 3}
+  iceShotPoint: {fileID: 1021934446}
+  repeatTime: 6
 --- !u!1 &1117911734
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,9 +981,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1123587076}
-  m_Layer: 0
+  - component: {fileID: 1123587077}
+  m_Layer: 11
   m_Name: RightIceTurretPoint
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,13 +997,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123587075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.47, y: 2.66, z: -0.12391278}
+  m_LocalPosition: {x: 23.589994, y: 2.6799998, z: -0.12391278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123587077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123587075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db058bfc4608004ba798a0333e42edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iceShotPrefab: {fileID: 5483828026309364574, guid: ef70f89d88421f444ba0abd1013fd5f8, type: 3}
+  iceShotPoint: {fileID: 1123587076}
+  repeatTime: 5
 --- !u!1 &1160996881
 GameObject:
   m_ObjectHideFlags: 0

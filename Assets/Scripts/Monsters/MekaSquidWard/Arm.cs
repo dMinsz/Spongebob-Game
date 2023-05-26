@@ -123,7 +123,7 @@ namespace ArmState
     {
         private Arm arm;
 
-        private Transform attackPoint;
+        private Vector3 attackPoint;
         private float attackedtime;
 
         public AttackState(Arm arm)
@@ -131,25 +131,23 @@ namespace ArmState
             this.arm = arm;
         }
 
-        public AttackState DeepCopyAttackPoint()
-        {
-            AttackState newCopy = new AttackState(arm);
-            newCopy.attackPoint = this.arm.playerPoint;
-
-            return newCopy;
-        }
+     
 
         public override void Enter()
         {
             Debug.Log("공격진입");
-            attackPoint = DeepCopyAttackPoint().attackPoint.transform;
+            
+            attackPoint.x = arm.player.transform.position.x;
+            attackPoint.y = arm.player.transform.position.y;
+            attackPoint.z = arm.player.transform.position.z;
+
             attackedtime = 0;
         }
 
         public override void Update()
         {
             attackedtime += Time.deltaTime;
-            Vector2 dir = (attackPoint.position - arm.transform.position).normalized;
+            Vector2 dir = (attackPoint - arm.transform.position).normalized;
             arm.transform.Translate(dir * arm.moveSpeed * Time.deltaTime);
 
             if (attackedtime > 3 || arm.IsGroundExist())

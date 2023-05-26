@@ -60,12 +60,10 @@ public class ManRayController : MonoBehaviour , IMonster
         renderdir();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    
+    public void ChangeState(State state)
     {
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            ChangeState(State.Return);
-        }
+        curState = state;
     }
     private void renderdir()
     {
@@ -78,12 +76,12 @@ public class ManRayController : MonoBehaviour , IMonster
             spriteRenderer.flipX = false;
         }
     }
-    
-
-    public void ChangeState(State state)
+    public void Hit(int damage)
     {
-        curState = state;
+        throw new System.NotImplementedException();
     }
+
+    
 
     private void OnDrawGizmos()
     {
@@ -92,11 +90,26 @@ public class ManRayController : MonoBehaviour , IMonster
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, AttackRange);
     }
-
-    public void Hit(int damage)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        throw new System.NotImplementedException();
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            ChangeState(State.Return);
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+            Rigidbody2D playerRigidbody = playerController.GetComponent<Rigidbody2D>();
+            int dirX = playerController.transform.position.x < transform.position.x ? -1 : 1;
+            playerRigidbody.velocity = new Vector2(dirX * 3, 8);//밀치기
+
+            playerController.Hit(1);
+        }
+    
     }
+
+
 }
 
 namespace manRayState
@@ -196,6 +209,7 @@ namespace manRayState
 
     public class AttackState : StateBase
     {
+        private UnityEvent OnFired;
         private ManRayController manRay;
         public AttackState(ManRayController manRay)
         {
@@ -206,13 +220,13 @@ namespace manRayState
 
         public override void Update()
         {
-            manRay.animator.SetBool("Attack", true);
+            
+            manRay.animator.SetTrigger("Attack");
+            
+            OnFired?.Invoke();
+
             manRay.lastAttackTime += Time.deltaTime;
-            if (manRay.lastAttackTime > 3)
-            {
-                Debug.Log("공격");
-                manRay.lastAttackTime = 0;
-            }
+            if()
 
             else if (Vector2.Distance(manRay.player.position, manRay.transform.position) > manRay.AttackRange)
             {

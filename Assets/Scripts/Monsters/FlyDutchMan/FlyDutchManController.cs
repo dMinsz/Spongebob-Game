@@ -132,6 +132,7 @@ public partial class FlyDutchManController : MonoBehaviour , IMonster
         if (collision.gameObject.tag == "Player")
         {
             PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+
             Rigidbody2D playerRigidbody = playerController.GetComponent<Rigidbody2D>();
             int dirX = playerController.transform.position.x < transform.position.x ? -1 : 1;
             playerRigidbody.velocity = new Vector2(dirX * 3, 8);//¹ÐÄ¡±â

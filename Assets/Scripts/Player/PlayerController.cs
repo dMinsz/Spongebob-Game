@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float maxSpeed;
     [SerializeField] private float movePower;
     [SerializeField] private float jumpPower;
-    [SerializeField] private int Hp;
+    [SerializeField] public int Hp;
     [SerializeField] private float hitStunTime;
 
     [Header("Player Attack Settings")]
@@ -145,7 +145,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!value.isPressed)
             return;
-        if (isHited)// 맞았을때 공격못함
+        if (isHited)
             return;
 
         OnRangeAttacked?.Invoke();

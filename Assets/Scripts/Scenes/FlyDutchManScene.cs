@@ -6,33 +6,58 @@ using UnityEngine.UI;
 public class FlyDutchManScene : BaseScene
 {
     [SerializeField]
-    public Image progressBar;
+    public Image BossBar;
+    [SerializeField]
+    public Image PlayerBar;
    
     private FlyDutchManController dutchMan;
-    private float HPMax;
-    private float nowHP;
+    private PlayerController player;
+
+    private float BossHPMax;
+    private float BossNowHP;
+
+    private float PlayerHPMax;
+    private float PlayerNowHP;
+
     private float timer = 0.0f;
     private void Awake()
     {
-        progressBar.fillAmount = 1.0f;
+        
+        BossBar.fillAmount = 1.0f;
+        PlayerBar.fillAmount = 1.0f;
+
         dutchMan = GameObject.FindGameObjectWithTag("Boss").GetComponent<FlyDutchManController>();
-        HPMax = dutchMan.HP;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+
+        BossHPMax = dutchMan.HP;
+        PlayerHPMax = player.Hp;
     }
 
     private void Update()
     {
-        nowHP = dutchMan.HP;
-        
+        BossNowHP = dutchMan.HP;
+        PlayerNowHP = player.Hp;
+
         timer += Time.deltaTime;
 
-        if ((nowHP/HPMax)<= 0.95) // 95프로미만이면
+        //player hp bar
+        if ((PlayerNowHP / PlayerHPMax) <= 0.95)
         {
-            progressBar.fillAmount = (nowHP / HPMax) ;
-            
+            PlayerBar.fillAmount = (PlayerNowHP / PlayerHPMax);
         }
-        else if (nowHP == 0 || nowHP < 0)
+        else if (PlayerNowHP <= 0)
         {
-            progressBar.fillAmount = 0.0f;
+            PlayerBar.fillAmount = 0.0f;
+        }
+
+        //boss hp bar
+        if ((BossNowHP/BossHPMax)<= 0.95)
+        {
+            BossBar.fillAmount = (BossNowHP / BossHPMax) ;
+        }
+        else if (BossNowHP <= 0)
+        {
+            BossBar.fillAmount = 0.0f;
         }
     }
     protected override void Init()

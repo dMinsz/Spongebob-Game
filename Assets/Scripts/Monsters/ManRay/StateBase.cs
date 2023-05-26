@@ -5,5 +5,5 @@ using UnityEngine;
 public abstract class StateBase
 {
     public abstract void Update();
-    
+    public abstract void Enter();
 }

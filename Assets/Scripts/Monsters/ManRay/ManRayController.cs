@@ -38,6 +38,11 @@ public class ManRayController : MonoBehaviour , IMonster
     public Vector3 returnPosition;
     public int patrolIndex = 0;
 
+    public UnityEvent OnIdled;
+    public UnityEvent OnTraced;
+    public UnityEvent OnHited;
+    public UnityEvent OnDied;
+
     private void Awake()
     {
         collider =GetComponent<Collider2D>();
@@ -109,7 +114,7 @@ public class ManRayController : MonoBehaviour , IMonster
             ChangeState(State.Idle);
 
             collider.enabled = false;
-
+            OnDied?.Invoke();
             
 
         }
@@ -117,6 +122,7 @@ public class ManRayController : MonoBehaviour , IMonster
         {
             //ChangeState(State.Idle);
             animator.SetTrigger("Hited");
+            OnHited?.Invoke();
         }
        
     }
@@ -166,7 +172,10 @@ namespace manRayState
             this.manRay = manRay;
         }
 
-        
+        public override void Enter()
+        {
+            manRay.OnIdled?.Invoke();
+        }
 
         public override void Update()
         {
@@ -198,7 +207,10 @@ namespace manRayState
             this.manRay = manRay;
         }
 
-        
+        public override void Enter()
+        {
+            manRay.OnTraced?.Invoke();
+        }
 
         public override void Update()
         {
@@ -227,7 +239,10 @@ namespace manRayState
             this.manRay = manRay;
         }
 
-        
+        public override void Enter()
+        {
+            throw new System.NotImplementedException();
+        }
 
         public override void Update()
         {
@@ -255,6 +270,11 @@ namespace manRayState
         public AttackState(ManRayController manRay)
         {
             this.manRay = manRay;
+        }
+
+        public override void Enter()
+        {
+            throw new System.NotImplementedException();
         }
 
         public override void Update()
@@ -290,7 +310,10 @@ namespace manRayState
             this.manRay = manRay;
         }
 
-        
+        public override void Enter()
+        {
+            throw new System.NotImplementedException();
+        }
 
         public override void Update()
         {

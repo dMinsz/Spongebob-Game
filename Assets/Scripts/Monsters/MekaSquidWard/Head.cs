@@ -15,10 +15,12 @@ public class Head : MonoBehaviour , IMonster
     private StateBaseMekaSquidWard[] states;
     private StateHead curState;
     private Coroutine curRoutine;
-    // public UnityEvent OnDied;
 
     [SerializeField] public int hp;
     [SerializeField] public GameObject gameObject;
+
+    [SerializeField] public UnityEvent OnHited;
+    [SerializeField] public UnityEvent OnDeath;
 
     private void Awake()
     {
@@ -139,6 +141,7 @@ namespace HeadState
 
         public override void Enter()
         {
+            head.OnHited?.Invoke();
             head.animator.SetBool("Hited", true);
             hitAnimationTime = 0;
             head.StartCoroutine(HitRoutine());
@@ -179,6 +182,7 @@ namespace HeadState
         public override void Enter()
         {
             Debug.Log("Die ¡¯¿‘");
+            head.OnDeath?.Invoke();
             head.animator.SetTrigger("Died");
             head.renderer.color = new Color(255, 0, 0);
             head.BossDestroy();

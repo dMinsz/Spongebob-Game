@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ArmState;
 using System.Runtime.InteropServices.WindowsRuntime;
+using UnityEngine.Events;
 
 public class Arm : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Arm : MonoBehaviour
     [SerializeField] public float moveSpeed;
     [SerializeField] public LayerMask groundMask;
     // [SerializeField] public Collider2D staybox;
+    [SerializeField] public UnityEvent OnAttack;
 
     private void Awake()
     {
@@ -150,6 +152,7 @@ namespace ArmState
 
             if (attackedtime > 3 || arm.IsGroundExist())
             {
+                
                 arm.ChangeState(StateArm.Return);
             }
         }
@@ -181,6 +184,7 @@ namespace ArmState
 
             if (arm.IsGroundExist())
             {
+                arm.OnAttack?.Invoke();
                 arm.ChangeState(StateArm.Return);
             }
         }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.IO.LowLevel.Unsafe;
+using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.Events;
@@ -14,9 +15,12 @@ public class ManRayController : MonoBehaviour , IMonster
     [SerializeField] public Transform groundCheckPoint;
     [SerializeField] public LayerMask groundMask;
     public SpriteRenderer spriteRenderer;
+    private Collider2D collider;
+
 
     public Rigidbody2D rb;
     private TMP_Text text;
+    private int Hp = 10;
     public float detectRange;
     public float moveSpeed;
     public float AttackRange;
@@ -36,6 +40,8 @@ public class ManRayController : MonoBehaviour , IMonster
 
     private void Awake()
     {
+        collider =GetComponent<Collider2D>();
+
         states = new StateBase[(int)State.Size];
         states[(int)State.Idle] = new IdleState(this);
         states[(int)State.Trace] = new TraceState(this);
@@ -59,7 +65,6 @@ public class ManRayController : MonoBehaviour , IMonster
 
     private void Update()
     {
-        
         states[(int)curState].Update();
         renderdir();
     }
@@ -87,8 +92,33 @@ public class ManRayController : MonoBehaviour , IMonster
     }
     public void Hit(int damage)
     {
-        throw new System.NotImplementedException();
+        Hp -= damage;
+        if (Hp <= 0)
+        {
+            Hp = 0;
+
+            Destroy(gameObject, 3f);
+            
+            animator.SetBool("Died", true);
+            animator.speed = 0.0f;
+
+            //rb.velocity = Vector2.zero;
+            //rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+            detectRange = 0.0f;
+            ChangeState(State.Idle);
+
+            collider.enabled = false;
+
+        }
+        else
+        {
+            //ChangeState(State.Idle);
+            animator.SetTrigger("Hited");
+        }
+       
     }
+    
 
     
 
@@ -123,7 +153,7 @@ public class ManRayController : MonoBehaviour , IMonster
 
 namespace manRayState
 {
-    public enum State { Idle, Trace, Return, Attack, Patrol, Size }
+    public enum State { Idle, Trace, Return, Attack, Patrol, Size, Died }
     public class IdleState : StateBase
     {
         private ManRayController manRay;
@@ -281,7 +311,7 @@ namespace manRayState
 
             Vector2 nextPosition = currentPosition + direction * manRay.moveSpeed * Time.deltaTime;
             // wallLayer 설정하기 ManRay에서
-            //RaycastHit2D hit = Physics2D.Linecast(currentPosition, nextPosition, manRay.wallLayer);
+            RaycastHit2D hit = Physics2D.Linecast(currentPosition, nextPosition);
 
 
             float distanceToTarget = Vector2.Distance(currentPosition, targetPosition);
@@ -296,4 +326,6 @@ namespace manRayState
 
         }
     }
+
+    
 }

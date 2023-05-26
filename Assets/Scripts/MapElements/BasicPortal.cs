@@ -29,7 +29,7 @@ public class BasicPortal : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.Z))
+            if (Input.GetKey(KeyCode.Z))
             {
                 GameManager.Scene.LoadScene(NextScene);
             }

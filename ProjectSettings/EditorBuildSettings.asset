@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlyDutchManScene.unity
     guid: b1a4bcb72d126f94e922438bf24ae7b9
+  - enabled: 1
+    path: Assets/Scenes/ManRayScene.unity
+    guid: 38368b3186319f1468bd22848cdd130c
+  - enabled: 1
+    path: Assets/Scenes/MekaSquidwardBossScene.unity
+    guid: 0dc1007abcfc93646825a67ae57c2055
   m_configObjects: {}

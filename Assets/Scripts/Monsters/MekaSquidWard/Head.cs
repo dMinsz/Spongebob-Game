@@ -8,16 +8,15 @@ using UnityEngine.Events;
 
 public class Head : MonoBehaviour , IMonster
 {
-    private Rigidbody2D rigidbody;
+    private new Rigidbody2D rigidbody;
     public Animator animator;
-    private Collider2D collider;
-    public SpriteRenderer renderer;
+    private new Collider2D collider;
+    public new SpriteRenderer renderer;
     private StateBaseMekaSquidWard[] states;
     private StateHead curState;
     private Coroutine curRoutine;
 
     [SerializeField] public int hp;
-    [SerializeField] public GameObject gameObject;
 
     [SerializeField] public UnityEvent OnHited;
     [SerializeField] public UnityEvent OnDeath;

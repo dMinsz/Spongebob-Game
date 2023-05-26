@@ -15,12 +15,12 @@ public class ManRayController : MonoBehaviour , IMonster
     [SerializeField] public Transform groundCheckPoint;
     [SerializeField] public LayerMask groundMask;
     public SpriteRenderer spriteRenderer;
-    private Collider2D collider;
+    private new Collider2D collider;
 
 
     public Rigidbody2D rb;
     private TMP_Text text;
-    private int Hp = 10;
+    public int Hp = 10;
     public float detectRange;
     public float moveSpeed;
     public float AttackRange;

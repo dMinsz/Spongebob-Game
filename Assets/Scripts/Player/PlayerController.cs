@@ -252,7 +252,7 @@ public class PlayerController : MonoBehaviour
         OnDied?.Invoke();
 
         //if die go To Robby
-        //GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
+        GameManager.Scene.LoadScene(SceneDefine.Scene.RobbyScene);
     }
 
     public void Hit(int Damage)

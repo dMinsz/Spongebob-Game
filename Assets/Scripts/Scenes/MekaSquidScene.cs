@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ManRayScene : BaseScene
+public class MekaSquidScene : BaseScene
 {
     [SerializeField]
     public Image BossBar;
@@ -16,7 +16,7 @@ public class ManRayScene : BaseScene
     private float PlayerHPMax;
     private float PlayerNowHP;
 
-    private ManRayController manray;
+    private Head squid;
     private PlayerController player;
 
     private float timer = 0.0f;
@@ -26,17 +26,17 @@ public class ManRayScene : BaseScene
         BossBar.fillAmount = 1.0f;
         PlayerBar.fillAmount = 1.0f;
 
-        manray = GameObject.FindGameObjectWithTag("Boss").GetComponent<ManRayController>();
+        squid = GameObject.FindGameObjectWithTag("Boss").GetComponent<Head>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 
-        BossHPMax = manray.Hp;
+        BossHPMax = squid.hp;
         PlayerHPMax = player.Hp;
 
     }
     private void Update()
     {
 
-        BossNowHP = manray.Hp;
+        BossNowHP = squid.hp;
         PlayerNowHP = player.Hp;
 
         timer += Time.deltaTime;

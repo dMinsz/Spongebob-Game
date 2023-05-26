@@ -69,7 +69,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +144,12 @@ TextureImporter:
       name: NetSwingSpongeBob_0
       rect:
         serializedVersion: 2
-        x: 83
-        y: 850
-        width: 82
-        height: 70
+        x: 91
+        y: 1055
+        width: 69
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,6 +157,1371 @@ TextureImporter:
       bones: []
       spriteID: d7b622fe57e7358498b32c40a7aa70df
       internalID: -1053492405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1055
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfc02b6594698e478718514179f64b8
+      internalID: -1238987127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_2
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1102
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa64a6c4e00834d821cfee409f1d73
+      internalID: -1474992322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_3
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1102
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdd131750a976c4abd3c5130d335bb7
+      internalID: -401434198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_4
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1102
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f7e918cd3a67d4e88eaa859a3fa4a4
+      internalID: 1588630628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_5
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1104
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaab4c4f20385d4c9743883b30cadcb
+      internalID: -1131783942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_6
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1100
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58751702a3bf82842b3edf7fdc5c436d
+      internalID: 1254069988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 998
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647bfdc466cb440489203d420e719426
+      internalID: -461899792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 934
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f1ebce0fb45a841a4da3845f178cd9
+      internalID: 436827813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006974c4ad4692f4cb1b3efb9d3c6273
+      internalID: 682327311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d2a944cfbbd324ca8d37c9a35a3cc1
+      internalID: -735318985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 851
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efead5b6e64ec1b41b77ddd7c45f0382
+      internalID: 774901065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade5f74156c1e034ba26a01d16661650
+      internalID: 638648769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move4
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669bff928e387a24f9ce73673427543d
+      internalID: -1084309090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 852
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fd7f831955d3b4c8b6b5ce78077f0e
+      internalID: -1274520722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966cb7453d8a8ca40ba04d0719e1b252
+      internalID: -2064136585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move7
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 851
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f22afb25336334bbd6f75da0097ed0
+      internalID: -1138361778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_27
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 851
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b503da5324e9a4c8cba0bf005155ac
+      internalID: 634135073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_28
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 851
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ca5d4aa412afe4cbb49c878ac4a137
+      internalID: -443271017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_29
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 851
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac83f9f4e7261f946987d5e9b55c9458
+      internalID: -485781623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_30
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 851
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d85435b4c59eb49ad9ecea76ace0bc
+      internalID: 355549963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_31
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 851
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d636aadf48edb664b98f96172ead1a72
+      internalID: 1000107880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_32
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 851
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4119a098941de54aae067627869dc34
+      internalID: -1702939604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_35
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 785
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a772292fc7ed06e49887cfbebeba8cd0
+      internalID: 731259160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_36
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 785
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf5fd407ef7114d895483cde23fdf3
+      internalID: 888556723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_37
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 785
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef92a83606cfa148a2851f1cb156b92
+      internalID: 1187237614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_38
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 785
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4038b9ac3477146805fbae15c47ab9
+      internalID: 2066504727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_39
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 785
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88404c3876f1a4749ba59fa0606c1a73
+      internalID: 85693236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_40
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 785
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b042b1c2f7de54e9488566160a4191
+      internalID: 532257791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_41
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 785
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bca4e2edea79345890d542f37d8eff
+      internalID: 454535409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_44
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 704
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14979039650296478096bf33caf2f19
+      internalID: 1729446002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 704
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4b40531dfbc9e4b895f837aef3d536
+      internalID: 1416192868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_46
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 704
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc21bf6a06807b84597b35a70440d0e4
+      internalID: -1910168315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_47
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 704
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72700e050795b454381c4bd4ae333b18
+      internalID: 265278710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_48
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 704
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84a4fc68c4488c43b4ee720454f53f5
+      internalID: 1852690665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_49
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 704
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a184bd1c0c9740b6c9070438a0c82
+      internalID: -864326224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_50
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 704
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e11939413a79b940a5d9653b71ede17
+      internalID: -787394713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_56
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 597
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be146e1dbf7e7594e96740661b47fcfd
+      internalID: -271903261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_57
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 597
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957e4bfb2186bc94f8ea04aafb9ca96c
+      internalID: -102180757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_58
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 597
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227a91d2b68275f478cb5c383da44bf2
+      internalID: 20709121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump0
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 597
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79ddc016eaa3e4d99e2273f23b0836
+      internalID: -2118235691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 597
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af940b91544eef449b787c4f87d00aa
+      internalID: 382500144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump2
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 597
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7b1e7a94753e4ab1f14b2f3a5a114
+      internalID: -864044173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 597
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5408287bca0c0bb4986a15a2387c94a1
+      internalID: 427943235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fe6a1d51ef8d2408167714a78bbc20
+      internalID: 797352812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_76
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 480
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a5d947aebda054d8c70e0a10250d47
+      internalID: 1294433207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_77
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 480
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780f3778fda9004a9068b79e9081185
+      internalID: -1810798292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwing0
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 481
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19311043d5b9754a8a26134ccb286d7
+      internalID: -193965554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwing1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 480
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61167120acca3044b77eec59e0ffe2a
+      internalID: -1341124501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwing2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 480
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34814523ca25814caf2be51d3338f82
+      internalID: -52461218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwing3
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 480
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f379489b6cda34ebcb14057500fc17
+      internalID: -1194903327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_98
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 270
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0852554238b6c74c8d9390cd6da0486
+      internalID: -1372111398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_99
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 270
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6f639e4985d804bb8182714bddd538
+      internalID: -1079223885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_100
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 270
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9654b74f41314341b04a5fd660991fa
+      internalID: -1402864091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_101
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 270
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027e742b2c876b1438f42566f0c7dcd4
+      internalID: -353631318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_102
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 270
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d30c7f40050de46b9c5a6ae4453cb2
+      internalID: 1870980105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_103
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 270
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d5e9552c1559540b30126717abbc60
+      internalID: 1851914481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_104
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 270
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb2db7856daef4681e7733d7699704
+      internalID: -2142605500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_105
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 270
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ddc31153eb0ff439a6fe745b5d3448
+      internalID: 724856795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 148
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dcb2bb48b9f5348a2c6f87fb5d0b8e
+      internalID: -1795952607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 148
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2e9476d57729c489bcf1cb971b6b81
+      internalID: 355957516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 148
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a095a344869644fbf42ed86ef4b157
+      internalID: 1338331187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 148
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d474b1853ad0248817ec0f5070884a
+      internalID: -127892835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 148
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d13d9eb88c3841b9dca63e126bfe0
+      internalID: -1076076142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NetSwingSpongeBob_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 1275
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb651ca15b9540e47bea9ceccb6e2c55
+      internalID: 1776396156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 148
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61a3288064dc9a4f9b59bf935578d33
+      internalID: 373971089
       vertices: []
       indices: 
       edges: []
@@ -160,7 +1537,132 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Idle0: -1795952607
+      Idle1: 373971089
+      Idle2: 355957516
+      Idle3: 1338331187
+      Idle4: -127892835
+      Idle5: -1076076142
+      Jump0: -2118235691
+      Jump1: 382500144
+      Move0: 682327311
+      Move1: -735318985
+      Move2: 774901065
+      Move3: 638648769
+      Move4: -1084309090
+      Move5: -1274520722
+      Move6: -2064136585
+      Move7: -1138361778
+      NetSwing0: -193965554
+      NetSwing1: -1341124501
+      NetSwing2: -52461218
+      NetSwing3: -1194903327
       NetSwingSpongeBob_0: -1053492405
+      NetSwingSpongeBob_1: -1238987127
+      NetSwingSpongeBob_10: 278185969
+      NetSwingSpongeBob_100: -1402864091
+      NetSwingSpongeBob_101: -353631318
+      NetSwingSpongeBob_102: 1870980105
+      NetSwingSpongeBob_103: 1851914481
+      NetSwingSpongeBob_104: -2142605500
+      NetSwingSpongeBob_105: 724856795
+      NetSwingSpongeBob_106: -1687732322
+      NetSwingSpongeBob_107: 1604561484
+      NetSwingSpongeBob_108: -706758350
+      NetSwingSpongeBob_109: -1012471893
+      NetSwingSpongeBob_11: -461899792
+      NetSwingSpongeBob_115: 1776396156
+      NetSwingSpongeBob_116: -14152081
+      NetSwingSpongeBob_117: 1471526735
+      NetSwingSpongeBob_118: -1204170212
+      NetSwingSpongeBob_119: -681575762
+      NetSwingSpongeBob_12: -1509150159
+      NetSwingSpongeBob_120: -32033230
+      NetSwingSpongeBob_121: -2126609441
+      NetSwingSpongeBob_122: 1981636600
+      NetSwingSpongeBob_123: 1381521227
+      NetSwingSpongeBob_124: 1577790993
+      NetSwingSpongeBob_125: 2058901176
+      NetSwingSpongeBob_13: 1706454050
+      NetSwingSpongeBob_14: 35577106
+      NetSwingSpongeBob_15: 436827813
+      NetSwingSpongeBob_16: -1339677700
+      NetSwingSpongeBob_17: -2067135105
+      NetSwingSpongeBob_18: -1090137082
+      NetSwingSpongeBob_2: -1474992322
+      NetSwingSpongeBob_27: 634135073
+      NetSwingSpongeBob_28: -443271017
+      NetSwingSpongeBob_29: -485781623
+      NetSwingSpongeBob_3: -401434198
+      NetSwingSpongeBob_30: 355549963
+      NetSwingSpongeBob_31: 1000107880
+      NetSwingSpongeBob_32: -1702939604
+      NetSwingSpongeBob_33: 1927849399
+      NetSwingSpongeBob_34: -105952846
+      NetSwingSpongeBob_35: 731259160
+      NetSwingSpongeBob_36: 888556723
+      NetSwingSpongeBob_37: 1187237614
+      NetSwingSpongeBob_38: 2066504727
+      NetSwingSpongeBob_39: 85693236
+      NetSwingSpongeBob_4: 1588630628
+      NetSwingSpongeBob_40: 532257791
+      NetSwingSpongeBob_41: 454535409
+      NetSwingSpongeBob_42: 1528280920
+      NetSwingSpongeBob_43: -661699926
+      NetSwingSpongeBob_44: 1729446002
+      NetSwingSpongeBob_45: 1416192868
+      NetSwingSpongeBob_46: -1910168315
+      NetSwingSpongeBob_47: 265278710
+      NetSwingSpongeBob_48: 1852690665
+      NetSwingSpongeBob_49: -864326224
+      NetSwingSpongeBob_5: -1131783942
+      NetSwingSpongeBob_50: -787394713
+      NetSwingSpongeBob_51: 1580263418
+      NetSwingSpongeBob_52: 146750118
+      NetSwingSpongeBob_53: 1041721992
+      NetSwingSpongeBob_54: -1343146089
+      NetSwingSpongeBob_55: -122960604
+      NetSwingSpongeBob_56: -271903261
+      NetSwingSpongeBob_57: -102180757
+      NetSwingSpongeBob_58: 20709121
+      NetSwingSpongeBob_6: 1254069988
+      NetSwingSpongeBob_63: -894723238
+      NetSwingSpongeBob_64: 1065504784
+      NetSwingSpongeBob_65: -2074480846
+      NetSwingSpongeBob_66: 733134916
+      NetSwingSpongeBob_67: 1469487497
+      NetSwingSpongeBob_68: -997463115
+      NetSwingSpongeBob_69: 2099193920
+      NetSwingSpongeBob_70: 1807524930
+      NetSwingSpongeBob_71: 580013099
+      NetSwingSpongeBob_72: 1879509310
+      NetSwingSpongeBob_73: -1846377337
+      NetSwingSpongeBob_74: 186396768
+      NetSwingSpongeBob_75: 797352812
+      NetSwingSpongeBob_76: 1294433207
+      NetSwingSpongeBob_77: -1810798292
+      NetSwingSpongeBob_8: -1515603328
+      NetSwingSpongeBob_82: -1937311239
+      NetSwingSpongeBob_83: -532872697
+      NetSwingSpongeBob_84: -1080991871
+      NetSwingSpongeBob_85: 1304691362
+      NetSwingSpongeBob_86: 1492154001
+      NetSwingSpongeBob_87: -1974616946
+      NetSwingSpongeBob_88: 1744429739
+      NetSwingSpongeBob_89: 1490430191
+      NetSwingSpongeBob_9: -1438265599
+      NetSwingSpongeBob_90: -1823616516
+      NetSwingSpongeBob_91: 1761993904
+      NetSwingSpongeBob_92: -756743273
+      NetSwingSpongeBob_93: -1382984648
+      NetSwingSpongeBob_94: 1456203520
+      NetSwingSpongeBob_95: 966318065
+      NetSwingSpongeBob_96: 589657093
+      NetSwingSpongeBob_97: 221041059
+      NetSwingSpongeBob_98: -1372111398
+      NetSwingSpongeBob_99: -1079223885
+      jump2: -864044173
+      jump3: 427943235
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

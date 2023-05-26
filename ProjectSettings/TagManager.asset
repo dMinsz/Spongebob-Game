@@ -3,26 +3,31 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boss
+  - Boundary
+  - ManRay
+  - Wall
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+  - DutchMan
+  - Boundary
   - Ground
   - Background
+  - Wall
+  - ManRay
   - 
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MekaSquidwardArm
   - 
   - 
   - 

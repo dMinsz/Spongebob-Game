@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-public class ManRayController : MonoBehaviour
+public class ManRayController : MonoBehaviour , IMonster
 {
 
     [SerializeField] public Transform groundCheckPoint;
@@ -93,11 +93,10 @@ public class ManRayController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, AttackRange);
     }
 
-    
-
-
-
-
+    public void Hit(int damage)
+    {
+        throw new System.NotImplementedException();
+    }
 }
 
 namespace manRayState

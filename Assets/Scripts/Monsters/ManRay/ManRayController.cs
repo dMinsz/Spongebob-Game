@@ -106,7 +106,7 @@ public class ManRayController : MonoBehaviour , IMonster
             ChangeState(State.Return);
         }
 
-        if (collision.gameObject.tag == "Player")
+        else if (collision.gameObject.tag == "Player")
         {
             PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
             Rigidbody2D playerRigidbody = playerController.GetComponent<Rigidbody2D>();
@@ -229,12 +229,13 @@ namespace manRayState
         {
             if (Vector2.Distance(manRay.player.position, manRay.transform.position) <= manRay.AttackRange)
             {
-                Debug.Log("공격");
-                manRay.animator.SetTrigger("Attack");
-                ExecuteAttack(); 
-            }
+                manRay.rb.velocity = Vector2.zero; // 움직임을 멈춤
 
-            if (Vector2.Distance(manRay.player.position, manRay.transform.position) > manRay.AttackRange)
+                // 공격 애니메이션 재생
+                manRay.animator.SetTrigger("Attack");
+                ExecuteAttack();
+            }
+            else
             {
                 manRay.ChangeState(State.Trace);
             }

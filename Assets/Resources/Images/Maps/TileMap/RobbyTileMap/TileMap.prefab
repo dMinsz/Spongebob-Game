@@ -136,6 +136,8 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: e3bf4071888e2e14c971e6c829a34307, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -147076085, guid: 73720875b57895c47a9570b0a60f20ff, type: 3}
   m_TileMatrixArray:

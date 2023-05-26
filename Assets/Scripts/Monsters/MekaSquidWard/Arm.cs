@@ -12,7 +12,7 @@ public class Arm : MonoBehaviour
     private StateArm curState;
     public Vector3 returnPosition;
     
-    [SerializeField] public Transform player;
+    [SerializeField] public GameObject player;
     [SerializeField] public float moveSpeed;
     [SerializeField] public LayerMask groundMask;
     // [SerializeField] public Collider2D staybox;
@@ -32,7 +32,7 @@ public class Arm : MonoBehaviour
     {
         curState = StateArm.Idle;
 
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        // player = GameObject.FindGameObjectWithTag("Player").transform;
         returnPosition = transform.position;
     }
 
@@ -53,6 +53,20 @@ public class Arm : MonoBehaviour
     {
         Debug.DrawRay(transform.position, Vector2.down, Color.red);
         return Physics2D.Raycast(transform.position, Vector2.down, 0.8f, groundMask);
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+            Rigidbody2D playerRigidbody = playerController.GetComponent<Rigidbody2D>();
+            int dirX = playerController.transform.position.x < transform.position.x ? -1 : 1;
+            playerRigidbody.velocity = new Vector2(dirX * 3, 8);//밀치기
+
+            playerController.Hit(1);
+        }
     }
 
     public void ChangeState(StateArm state)
@@ -110,10 +124,10 @@ namespace ArmState
         private Arm arm;
 
         private Transform attackPoint;
-        private Transform player;
+        private GameObject player;
         private float attackedtime;
 
-        public AttackState(Arm arm, Transform player)
+        public AttackState(Arm arm, GameObject player)
         {
             this.arm = arm;
             this.player = player;
@@ -130,7 +144,7 @@ namespace ArmState
         public override void Enter()
         {
             Debug.Log("공격진입");
-            attackPoint = DeepCopyAttackPoint().player;
+            attackPoint = DeepCopyAttackPoint().player.transform;
             attackedtime = 0;
         }
 

@@ -40,6 +40,7 @@ public class Head : MonoBehaviour , IMonster
     private void Update()
     {
         states[(int)curState].Update();
+        Debug.Log(hp);
     }
 
     public void StartCoroutine(string coroutine, Coroutine curRoutine)

@@ -5,7 +5,7 @@ using Unity.Burst.Intrinsics;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Head : MonoBehaviour
+public class Head : MonoBehaviour , IMonster
 {
     private Rigidbody2D rigidbody;
     private Animator animator;
@@ -45,7 +45,7 @@ public class Head : MonoBehaviour
         curRoutine = StartCoroutine(coroutine);
     }
 
-    public void StopCoroutin(Coroutine coroutine)
+    public void StopCoroutin(IEnumerator coroutine)
     {
         StopCoroutine(coroutine);
     }
@@ -56,6 +56,11 @@ public class Head : MonoBehaviour
         curState = state;
         states[(int)curState].Enter();
         states[(int)curState].Update();
+    }
+
+    public void Hit(int damage)
+    {
+        hp -= damage;
     }
 }
 
@@ -106,6 +111,7 @@ namespace HeadState
             {
                 head.hp = 0;
                 head.ChangeState(StateHead.Die);
+                head.animator.
                 head.renderer.color = new Color(255, 0, 0);
             }
             else
@@ -115,12 +121,8 @@ namespace HeadState
         }
 
         IEnumerator HitRoutine()
-
         {
-
             yield return new WaitForSecondsRealtime(1f);
-
-
         }
 
         public override void Enter()
@@ -132,11 +134,11 @@ namespace HeadState
         {
 
         }
+
         public override void Exit()
         {
-            
+            head.StopCoroutin(HitRoutine());
         }
-
     }
 
     public class DieState : StateBaseMekaSquidWard
